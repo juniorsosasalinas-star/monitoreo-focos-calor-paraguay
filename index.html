@@ -127,10 +127,17 @@
       background: #29537d;
     }
 
+    .pestanas { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:18px; }
+    .pestana { border:1px solid #cad5e2; background:#f1f5fa; color:#17304b;
+      border-radius:8px; padding:11px 16px; cursor:pointer; font-weight:bold; }
+    .pestana.activa { background:#17304b; color:white; }
+    .panel-oculto { display:none; }
+    .zoom-frame { width:100%; height:570px; border:1px solid #d7e0eb; border-radius:12px; }
     @media (max-width: 650px) {
       header h1 { font-size: 20px; }
       main { padding: 12px; }
       #mapa { height: 470px; }
+      .zoom-frame { height:470px; }
     }
   </style>
 </head>
@@ -179,7 +186,12 @@
 
   <section class="tarjeta">
 
-    <h2>Mapa de focos de calor - Paraguay</h2>
+    <h2>Monitoreo satelital - Paraguay</h2>
+    <div class="pestanas" role="tablist" aria-label="Seleccionar mapa">
+      <button class="pestana activa" id="tab-firms" role="tab" aria-selected="true" aria-controls="panel-firms">Focos de calor - NASA FIRMS</button>
+      <button class="pestana" id="tab-zoom" role="tab" aria-selected="false" aria-controls="panel-zoom">Zoom Earth</button>
+    </div>
+    <div id="panel-firms" role="tabpanel" aria-labelledby="tab-firms">
 
     <div class="filtros">
       <label>
@@ -252,6 +264,14 @@
       en una próxima actualización.
     </p>
 
+    </div>
+    <div id="panel-zoom" class="panel-oculto" role="tabpanel" aria-labelledby="tab-zoom">
+      <p class="nota">Visualización externa de Zoom Earth. Si no aparece el mapa,
+        el sitio puede impedir su integración en otras páginas.</p>
+      <iframe class="zoom-frame" id="zoom-frame" title="Zoom Earth - Paraguay"
+        loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      <p class="nota"><a href="https://zoom.earth/" target="_blank" rel="noopener noreferrer">Abrir Zoom Earth en otra pestaña</a></p>
+    </div>
   </section>
 
 </main>
@@ -417,7 +437,7 @@
       "Se muestran " +
       formatoNumero.format(visibles.length) +
       " detecciones de las últimas 24 horas " +
-      "en Paraguay y zonas limítrofes.";
+      "en territorio paraguayo.";
   }
 
   async function cargarDatos() {
@@ -481,6 +501,28 @@
 
   document.getElementById("recargar")
     .addEventListener("click", cargarDatos);
+
+  const tabFirms = document.getElementById('tab-firms');
+  const tabZoom = document.getElementById('tab-zoom');
+  const panelFirms = document.getElementById('panel-firms');
+  const panelZoom = document.getElementById('panel-zoom');
+  let zoomCargado = false;
+  function mostrarPestana(tipo) {
+    const firms = tipo === 'firms';
+    panelFirms.classList.toggle('panel-oculto', !firms);
+    panelZoom.classList.toggle('panel-oculto', firms);
+    tabFirms.classList.toggle('activa', firms);
+    tabZoom.classList.toggle('activa', !firms);
+    tabFirms.setAttribute('aria-selected', String(firms));
+    tabZoom.setAttribute('aria-selected', String(!firms));
+    if (firms) setTimeout(() => mapa.invalidateSize(), 0);
+    if (!firms && !zoomCargado) {
+      document.getElementById('zoom-frame').src = 'https://zoom.earth/';
+      zoomCargado = true;
+    }
+  }
+  tabFirms.addEventListener('click', () => mostrarPestana('firms'));
+  tabZoom.addEventListener('click', () => mostrarPestana('zoom'));
 
   cargarDatos();
 
