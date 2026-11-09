@@ -1,0 +1,44 @@
+
+name: Actualizar focos de calor NASA FIRMS
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizacion-focos
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          ref: principal
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Consultar NASA FIRMS
+        env:
+          NASA_FIRMS_MAP_KEY: ${{ secrets.NASA_FIRMS_MAP_KEY }}
+        run: python actualizar_focos.py
+
+      - name: Guardar datos actualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos/focos.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualizar focos de calor NASA FIRMS"
+            git push origin HEAD:principal
+          fi
