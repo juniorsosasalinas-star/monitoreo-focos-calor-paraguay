@@ -127,17 +127,17 @@
       background: #29537d;
     }
 
-    .pestanas { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:18px; }
-    .pestana { border:1px solid #cad5e2; background:#f1f5fa; color:#17304b;
-      border-radius:8px; padding:11px 16px; cursor:pointer; font-weight:bold; }
+    .pestanas { display:flex; flex-wrap:wrap; gap:10px; margin:14px 0 18px; }
+    .pestana { border:1px solid #cbd7e5; border-radius:9px; background:#f1f5fa; color:#17304b; padding:12px 17px; font-weight:bold; cursor:pointer; }
     .pestana.activa { background:#17304b; color:white; }
-    .panel-oculto { display:none; }
-    .zoom-frame { width:100%; height:570px; border:1px solid #d7e0eb; border-radius:12px; }
+    [hidden] { display:none !important; }
+    #mapaGoes { height:570px; border-radius:12px; overflow:hidden; background:#172d40; }
+    .controles-goes { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-bottom:14px; }
+    .controles-goes select { padding:10px; border:1px solid #cbd7e5; border-radius:7px; }
     @media (max-width: 650px) {
       header h1 { font-size: 20px; }
       main { padding: 12px; }
-      #mapa { height: 470px; }
-      .zoom-frame { height:470px; }
+      #mapa, #mapaGoes { height: 470px; }
     }
   </style>
 </head>
@@ -187,11 +187,11 @@
   <section class="tarjeta">
 
     <h2>Monitoreo satelital - Paraguay</h2>
-    <div class="pestanas" role="tablist" aria-label="Seleccionar mapa">
-      <button class="pestana activa" id="tab-firms" role="tab" aria-selected="true" aria-controls="panel-firms">Focos de calor - NASA FIRMS</button>
-      <button class="pestana" id="tab-zoom" role="tab" aria-selected="false" aria-controls="panel-zoom">Zoom Earth</button>
+    <div class="pestanas" role="tablist" aria-label="Fuentes satelitales">
+      <button type="button" class="pestana activa" id="tabFirms" role="tab" aria-selected="true" aria-controls="panelFirms">Focos de calor - NASA FIRMS</button>
+      <button type="button" class="pestana" id="tabGoes" role="tab" aria-selected="false" aria-controls="panelGoes">Satélite GOES-East (NOAA)</button>
     </div>
-    <div id="panel-firms" role="tabpanel" aria-labelledby="tab-firms">
+    <div id="panelFirms" role="tabpanel" aria-labelledby="tabFirms">
 
     <div class="filtros">
       <label>
@@ -258,19 +258,24 @@
     </p>
 
     <p class="nota">
-      Cobertura preliminar: Paraguay y zonas
-      limítrofes. El filtro geográfico exacto
-      por territorio nacional se incorporará
-      en una próxima actualización.
+      Cobertura de FIRMS: depende del filtro utilizado por actualizar_focos.py.
+      Si el archivo JSON se generó con un rectángulo, puede incluir zonas limítrofes.
     </p>
 
     </div>
-    <div id="panel-zoom" class="panel-oculto" role="tabpanel" aria-labelledby="tab-zoom">
-      <p class="nota">Visualización externa de Zoom Earth. Si no aparece el mapa,
-        el sitio puede impedir su integración en otras páginas.</p>
-      <iframe class="zoom-frame" id="zoom-frame" title="Zoom Earth - Paraguay"
-        loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-      <p class="nota"><a href="https://zoom.earth/" target="_blank" rel="noopener noreferrer">Abrir Zoom Earth en otra pestaña</a></p>
+    <div id="panelGoes" role="tabpanel" aria-labelledby="tabGoes" hidden>
+      <p class="nota">Imágenes de NOAA GOES-East sobre Paraguay. GeoColor es una composición de color durante el día y una visualización infrarroja durante la noche. Las imágenes son orientativas, no un producto de alerta.</p>
+      <div class="controles-goes">
+        <label for="tipoGoes"><strong>Visualización:</strong></label>
+        <select id="tipoGoes">
+          <option value="ABIGC_Last_24hr">GeoColor</option>
+          <option value="ABI13_Last_24hr">Infrarrojo (banda 13)</option>
+        </select>
+        <button type="button" class="boton" id="recargarGoes">Actualizar imagen GOES</button>
+      </div>
+      <div id="mapaGoes" aria-label="Mapa satelital NOAA GOES-East"></div>
+      <p class="nota" id="estadoGoes" role="status" aria-live="polite">Abrí esta pestaña para cargar las imágenes de NOAA.</p>
+      <p class="nota">Fuente: <a href="https://www.nesdis.noaa.gov/imagery/satellite-maps" target="_blank" rel="noopener noreferrer">NOAA NESDIS Satellite Maps</a>. La disponibilidad y la actualización dependen del servicio oficial.</p>
     </div>
   </section>
 
@@ -437,7 +442,7 @@
       "Se muestran " +
       formatoNumero.format(visibles.length) +
       " detecciones de las últimas 24 horas " +
-      "en territorio paraguayo.";
+      "en Paraguay y zonas limítrofes.";
   }
 
   async function cargarDatos() {
@@ -501,28 +506,6 @@
 
   document.getElementById("recargar")
     .addEventListener("click", cargarDatos);
-
-  const tabFirms = document.getElementById('tab-firms');
-  const tabZoom = document.getElementById('tab-zoom');
-  const panelFirms = document.getElementById('panel-firms');
-  const panelZoom = document.getElementById('panel-zoom');
-  let zoomCargado = false;
-  function mostrarPestana(tipo) {
-    const firms = tipo === 'firms';
-    panelFirms.classList.toggle('panel-oculto', !firms);
-    panelZoom.classList.toggle('panel-oculto', firms);
-    tabFirms.classList.toggle('activa', firms);
-    tabZoom.classList.toggle('activa', !firms);
-    tabFirms.setAttribute('aria-selected', String(firms));
-    tabZoom.setAttribute('aria-selected', String(!firms));
-    if (firms) setTimeout(() => mapa.invalidateSize(), 0);
-    if (!firms && !zoomCargado) {
-      document.getElementById('zoom-frame').src = 'https://zoom.earth/';
-      zoomCargado = true;
-    }
-  }
-  tabFirms.addEventListener('click', () => mostrarPestana('firms'));
-  tabZoom.addEventListener('click', () => mostrarPestana('zoom'));
 
   cargarDatos();
 
