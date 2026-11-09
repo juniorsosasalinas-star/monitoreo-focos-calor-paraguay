@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monitoreo de Focos de Calor - Paraguay</title>
+  <link rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f5fa;
+      color: #17304b;
+    }
+    header {
+      background: #17304b;
+      color: white;
+      text-align: center;
+      padding: 24px 12px;
+    }
+    header h1 { margin: 0 0 8px; font-size: 24px; }
+    main { max-width: 1200px; margin: auto; padding: 20px; }
+    .indicadores {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    .tarjeta {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px #00000012;
+    }
+    .valor { font-size: 28px; font-weight: bold; }
+    #mapa {
+      height: 550px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .nota { font-size: 13px; color: #526477; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MONITOREO SATELITAL DE FOCOS DE CALOR</h1>
+    <div>República del Paraguay | NASA FIRMS</div>
+  </header>
+
+  <main>
+    <section class="indicadores">
+      <div class="tarjeta">
+        <div>Focos últimas 24 horas</div>
+        <div class="valor" id="focos">--</div>
+      </div>
+      <div class="tarjeta">
+        <div>Departamentos afectados</div>
+        <div class="valor" id="departamentos">--</div>
+      </div>
+      <div class="tarjeta">
+        <div>Última actualización</div>
+        <div class="valor" id="actualizacion">--</div>
+      </div>
+    </section>
+
+    <div class="tarjeta">
+      <h2>Mapa de focos de calor - Paraguay</h2>
+      <div id="mapa"></div>
+      <p class="nota" id="estado">
+        Mapa inicial. Pendiente de conectar con NASA FIRMS.
+      </p>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const mapa = L.map("mapa").setView([-23.5, -58.5], 6);
+
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(mapa);
+  </script>
+</body>
+</html>
