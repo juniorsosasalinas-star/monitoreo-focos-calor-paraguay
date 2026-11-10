@@ -507,6 +507,47 @@
   document.getElementById("recargar")
     .addEventListener("click", cargarDatos);
 
+  // Activar pestañas y preparar el segundo mapa solo al abrirlo.
+  const tabFirms = document.getElementById("tabFirms");
+  const tabGoes = document.getElementById("tabGoes");
+  const panelFirms = document.getElementById("panelFirms");
+  const panelGoes = document.getElementById("panelGoes");
+  let mapaGoes = null;
+
+  function cambiarPestana(goes) {
+    panelFirms.hidden = goes;
+    panelGoes.hidden = !goes;
+    tabFirms.classList.toggle("activa", !goes);
+    tabGoes.classList.toggle("activa", goes);
+    tabFirms.setAttribute("aria-selected", String(!goes));
+    tabGoes.setAttribute("aria-selected", String(goes));
+    if (goes) {
+      if (!mapaGoes) {
+        mapaGoes = L.map("mapaGoes").setView([-23.5, -58.5], 6);
+        L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          maxZoom: 19,
+          attribution: "&copy; OpenStreetMap contributors"
+        }).addTo(mapaGoes);
+      }
+      setTimeout(() => mapaGoes.invalidateSize(), 50);
+      document.getElementById("estadoGoes").textContent =
+        "La pestaña ya funciona. La capa de imágenes GOES todavía necesita conectarse a un servicio NOAA compatible; este mapa es solo la base cartográfica.";
+    } else {
+      setTimeout(() => mapa.invalidateSize(), 50);
+    }
+  }
+
+  tabFirms.addEventListener("click", () => cambiarPestana(false));
+  tabGoes.addEventListener("click", () => cambiarPestana(true));
+  document.getElementById("recargarGoes").addEventListener("click", () => {
+    document.getElementById("estadoGoes").textContent =
+      "No se ha configurado aún una capa GOES válida. Consultá las imágenes oficiales de NOAA en el enlace inferior.";
+  });
+  document.getElementById("tipoGoes").addEventListener("change", () => {
+    document.getElementById("estadoGoes").textContent =
+      "Visualización seleccionada. Falta configurar la capa satelital NOAA para mostrarla.";
+  });
+
   cargarDatos();
 
   // Revisar si hay datos nuevos cada 5 minutos.
@@ -515,4 +556,3 @@
 
 </body>
 </html>
-
