@@ -135,6 +135,11 @@
     .hora-goes { position:absolute; right:12px; top:12px; z-index:900; background:rgba(23,48,75,.94); color:white; border-radius:8px; padding:9px 12px; font-size:13px; font-weight:bold; box-shadow:0 2px 8px #0004; max-width:calc(100% - 70px); pointer-events:none; }
     .controles-goes { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-bottom:14px; }
     .controles-goes select { padding:10px; border:1px solid #cbd7e5; border-radius:7px; }
+    .tiempo-goes { display:flex; flex-wrap:wrap; align-items:center; gap:9px; margin:12px 0; }
+    .tiempo-goes input { padding:8px; border:1px solid #cbd7e5; border-radius:7px; }
+    .etiqueta-depto { color:#fff; font:bold 11px Arial; text-shadow:0 1px 3px #000, 0 0 3px #000; white-space:nowrap; }
+    .etiqueta-depto div { transform:translate(-50%,-50%); }
+    .hora-goes { z-index:1000 !important; }
     @media (max-width: 650px) {
       header h1 { font-size: 20px; }
       main { padding: 12px; }
@@ -274,6 +279,16 @@
         </select>
         <button type="button" class="boton" id="recargarGoes">Actualizar imagen GOES</button>
       </div>
+      <div class="tiempo-goes">
+        <label for="fechaGoes">Fecha (Paraguay):</label><input type="date" id="fechaGoes">
+        <label for="horaInicioGoes">Desde:</label><input type="time" id="horaInicioGoes" value="09:00" step="600">
+        <label for="horaFinGoes">Hasta:</label><input type="time" id="horaFinGoes" value="10:00" step="600">
+        <button type="button" class="boton" id="prepararGoes">Preparar secuencia</button>
+        <button type="button" class="boton" id="anteriorGoes" disabled>−10 min</button>
+        <button type="button" class="boton" id="siguienteGoes" disabled>+10 min</button>
+        <button type="button" class="boton" id="reproducirGoes" disabled>Reproducir</button>
+      </div>
+      <p class="nota" id="estadoTiempoGoes">La navegación histórica se habilita solamente si NOAA publica imágenes consultables por hora en este servicio.</p>
       <div id="mapaGoes" aria-label="Mapa satelital NOAA GOES-East"><div id="horaImagenGoes" class="hora-goes" aria-live="polite">Hora de imagen: consultando NOAA…</div></div>
       <p class="nota" id="estadoGoes" role="status" aria-live="polite">Abrí esta pestaña para cargar imágenes GOES-East desde NOAA.</p>
       <p class="nota">Fuente: <a href="https://www.nesdis.noaa.gov/imagery/satellite-maps" target="_blank" rel="noopener noreferrer">NOAA NESDIS Satellite Maps</a>. La disponibilidad y la actualización dependen del servicio oficial.</p>
@@ -299,6 +314,40 @@
   ).addTo(mapa);
 
   const capaFocos = L.layerGroup().addTo(mapa);
+  // geoBoundaries ADM1: Paraguay (17 departamentos y Asunción).
+  const URL_ADM1 = "https://www.geoboundaries.org/api/current/gbOpen/PRY/ADM1/";
+  let geometriaDepartamentos = null;
+  let capaLimitesGoes = null;
+  function dibujarLimites(destino) {
+    if (!geometriaDepartamentos) return;
+    const capa = L.geoJSON(geometriaDepartamentos, {
+      style: {color:"#ffffff", weight:1.25, opacity:0.9, fill:false, fillOpacity:0},
+      onEachFeature: (feature, layer) => {
+        const nombre = feature.properties?.shapeName || feature.properties?.name || "Departamento";
+        layer.bindTooltip(nombre, {sticky:true});
+        const centro = layer.getBounds().getCenter();
+        L.marker(centro, {interactive:false, icon:L.divIcon({className:"etiqueta-depto", html:"<div>"+textoSeguro(nombre)+"</div>", iconSize:[0,0]})}).addTo(destino);
+      }
+    }).addTo(destino);
+    // Contorno nacional generado disolviendo fronteras externas no disponible aquí:
+    // los bordes departamentales dibujan también el perímetro del país.
+    if (destino === mapaGoes) capaLimitesGoes = capa;
+    return capa;
+  }
+  async function cargarLimites() {
+    try {
+      const r = await fetch(URL_ADM1, {cache:"force-cache"});
+      if (!r.ok) throw Error("Metadatos de límites no disponibles");
+      const info = await r.json();
+      const url = info.simplifiedGeometryGeoJSON || info.gjDownloadURL;
+      if (!url) throw Error("No se encontró GeoJSON ADM1");
+      const gr = await fetch(url);
+      if (!gr.ok) throw Error("GeoJSON no disponible");
+      geometriaDepartamentos = await gr.json();
+      dibujarLimites(mapa);
+      if (mapaGoes) dibujarLimites(mapaGoes);
+    } catch(e) { console.warn("No se pudieron cargar los límites departamentales:", e); }
+  }
 
   let datosActuales = [];
   let fechaActualizacion = null;
@@ -531,6 +580,70 @@
   let temporizadorGoes = null;
   const horaImagenGoes = document.getElementById("horaImagenGoes");
   let consultaHoraGoes = 0;
+  let secuencia = [];
+  let indiceSecuencia = 0;
+  let reproduccion = null;
+  let permiteTiempo = false;
+  const tiempoEstado = document.getElementById("estadoTiempoGoes");
+  const botonAnterior = document.getElementById("anteriorGoes");
+  const botonSiguiente = document.getElementById("siguienteGoes");
+  const botonReproducir = document.getElementById("reproducirGoes");
+  const fechaControl = document.getElementById("fechaGoes");
+  fechaControl.value = new Intl.DateTimeFormat("en-CA", {timeZone:"America/Asuncion", year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+  function fechaParaguayUTC(fecha, hora) {
+    // Paraguay mantiene UTC-3 en 2026. Esta conversión se usa para las fechas del visor.
+    return new Date(fecha + "T" + hora + ":00-03:00").getTime();
+  }
+  function detenerSecuencia() {
+    if (reproduccion) clearInterval(reproduccion);
+    reproduccion = null;
+    botonReproducir.textContent = "Reproducir";
+  }
+  function actualizarBotonesTiempo() {
+    botonAnterior.disabled = !permiteTiempo || indiceSecuencia <= 0;
+    botonSiguiente.disabled = !permiteTiempo || indiceSecuencia >= secuencia.length-1;
+    botonReproducir.disabled = !permiteTiempo || secuencia.length < 2;
+  }
+  async function verificarTiempo() {
+    permiteTiempo = false;
+    detenerSecuencia();
+    actualizarBotonesTiempo();
+    const servicio = SERVICIOS_GOES[selectorGoes.value];
+    try {
+      const r = await fetch(NOAA_BASE + servicio + "/ImageServer?f=pjson&_t="+Date.now());
+      if (!r.ok) throw Error("Metadatos inaccesibles");
+      const info = await r.json();
+      const ext = info.timeInfo?.timeExtent;
+      permiteTiempo = !!(info.timeInfo && Array.isArray(ext) && ext.length === 2 && ext.every(Number.isFinite));
+      tiempoEstado.textContent = permiteTiempo ? "NOAA informa un intervalo temporal; elegí fecha y horas y presioná Preparar secuencia." : "Este servicio NOAA no anuncia un archivo histórico consultable por hora. Los controles de 10 minutos permanecerán desactivados para evitar mostrar imágenes repetidas o incorrectas.";
+    } catch(e) { tiempoEstado.textContent = "No se pudo verificar la disponibilidad histórica de NOAA. Controles desactivados."; }
+    actualizarBotonesTiempo();
+  }
+  function prepararSecuencia() {
+    detenerSecuencia();
+    if (!permiteTiempo) return;
+    const a=fechaParaguayUTC(fechaControl.value, document.getElementById("horaInicioGoes").value);
+    const b=fechaParaguayUTC(fechaControl.value, document.getElementById("horaFinGoes").value);
+    if (!Number.isFinite(a)||!Number.isFinite(b)||b<=a||b-a>24*3600000) {
+      tiempoEstado.textContent="Elegí un intervalo válido, de hasta 24 horas, con la hora final posterior a la inicial."; return;
+    }
+    secuencia=[];
+    for(let t=a;t<=b;t+=600000) secuencia.push(t);
+    indiceSecuencia=0;
+    cargarImagenGoes(secuencia[0]);
+    actualizarBotonesTiempo();
+  }
+  document.getElementById("prepararGoes").addEventListener("click", prepararSecuencia);
+  botonAnterior.addEventListener("click",()=>{detenerSecuencia();indiceSecuencia=Math.max(0,indiceSecuencia-1);cargarImagenGoes(secuencia[indiceSecuencia]);actualizarBotonesTiempo();});
+  botonSiguiente.addEventListener("click",()=>{detenerSecuencia();indiceSecuencia=Math.min(secuencia.length-1,indiceSecuencia+1);cargarImagenGoes(secuencia[indiceSecuencia]);actualizarBotonesTiempo();});
+  botonReproducir.addEventListener("click",()=>{
+    if(reproduccion){detenerSecuencia();return;}
+    botonReproducir.textContent="Pausar";
+    reproduccion=setInterval(()=>{
+      if(indiceSecuencia>=secuencia.length-1){detenerSecuencia();return;}
+      indiceSecuencia++; cargarImagenGoes(secuencia[indiceSecuencia]); actualizarBotonesTiempo();
+    },1800);
+  });
 
   // La fecha se obtiene de los metadatos oficiales, no del reloj del navegador.
   async function consultarHoraImagenGoes(servicio) {
@@ -561,7 +674,7 @@
     }
   }
 
-  function cargarImagenGoes() {
+  function cargarImagenGoes(instante = null) {
     if (!mapaGoes || panelGoes.hidden) return;
     const servicio = SERVICIOS_GOES[selectorGoes.value];
     if (!servicio) {
@@ -586,6 +699,10 @@
       transparent: "true",
       _t: String(Date.now())
     });
+    if (instante !== null) {
+      parametros.set("time", String(instante));
+      tiempoEstado.textContent = "Solicitando imagen para " + new Date(instante).toLocaleString("es-PY",{timeZone:"America/Asuncion"}) + " PY. Su disponibilidad depende de NOAA.";
+    }
     const url = NOAA_BASE + servicio + "/ImageServer/exportImage?" + parametros.toString();
     const turno = ++solicitudGoes;
     estadoGoes.textContent = "Solicitando imagen real de NOAA GOES-East...";
@@ -595,8 +712,11 @@
       if (turno !== solicitudGoes) return;
       if (capaImagenGoes) mapaGoes.removeLayer(capaImagenGoes);
       capaImagenGoes = L.imageOverlay(url, limites, {opacity: 0.92, interactive: false}).addTo(mapaGoes);
-      capaImagenGoes.bringToFront();
-      estadoGoes.textContent = "Imagen NOAA GOES-East cargada. Producto: " +
+      if (capaLimitesGoes) capaLimitesGoes.bringToFront();
+      if (instante !== null) {
+        horaImagenGoes.textContent = "Hora solicitada: " + new Date(instante).toLocaleString("es-PY",{timeZone:"America/Asuncion"}) + " PY (adquisición sin verificar)";
+      }
+      estadoGoes.textContent = (instante !== null ? "Imagen solicitada para horario seleccionado; verificá que NOAA corresponda a esa adquisición. " : "Imagen NOAA GOES-East cargada. ") + "Producto: " +
         (selectorGoes.value === "ABIGC_Last_24hr" ? "GeoColor" : "Infrarrojo banda 13") +
         ". Al mover el mapa se solicitará otra imagen. La fecha de adquisición depende de NOAA.";
       btnGoes.disabled = false;
@@ -629,6 +749,8 @@
           attribution: "&copy; OpenStreetMap contributors"
         }).addTo(mapaGoes);
         mapaGoes.on("moveend", programarImagenGoes);
+        dibujarLimites(mapaGoes);
+        verificarTiempo();
       }
       setTimeout(() => {
         mapaGoes.invalidateSize();
@@ -642,8 +764,9 @@
   tabFirms.addEventListener("click", () => cambiarPestana(false));
   tabGoes.addEventListener("click", () => cambiarPestana(true));
   btnGoes.addEventListener("click", cargarImagenGoes);
-  selectorGoes.addEventListener("change", cargarImagenGoes);
+  selectorGoes.addEventListener("change", () => { detenerSecuencia(); secuencia=[]; verificarTiempo(); cargarImagenGoes(); });
 
+  cargarLimites();
   cargarDatos();
 
   // Revisar si hay datos nuevos cada 5 minutos.
