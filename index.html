@@ -156,7 +156,7 @@
 
     <div class="tarjeta">
       <div class="etiqueta">
-        Detecciones últimas 24 horas
+        Detecciones en el último archivo (24 h)
       </div>
       <div class="valor" id="focos">--</div>
     </div>
@@ -363,14 +363,20 @@
 
     const seleccionados = sensoresSeleccionados();
 
-    const ahora = Date.now();
-    const inicio = ahora - 24 * 60 * 60 * 1000;
+    // La ventana corresponde a la última actualización del archivo,
+    // no a la hora actual del navegador (que puede ser posterior).
+    const referencia = fechaActualizacion instanceof Date &&
+      Number.isFinite(fechaActualizacion.getTime())
+      ? fechaActualizacion.getTime()
+      : Math.max(0, ...datosActuales.map(d =>
+          obtenerFechaDeteccion(d)?.getTime() || 0));
+    const inicio = referencia - 24 * 60 * 60 * 1000;
 
     const recientes = datosActuales.filter(d => {
       const momento = obtenerFechaDeteccion(d);
       return momento &&
         momento.getTime() >= inicio &&
-        momento.getTime() <= ahora;
+        momento.getTime() <= referencia;
     });
 
     const visibles = recientes.filter(
@@ -438,11 +444,21 @@
     document.getElementById("sensores").textContent =
       fuentesConDatos.size;
 
+    const antiguedadHoras = fechaActualizacion instanceof Date &&
+      Number.isFinite(fechaActualizacion.getTime())
+      ? (Date.now() - fechaActualizacion.getTime()) / 3600000
+      : NaN;
+    const aviso = Number.isFinite(antiguedadHoras) && antiguedadHoras > 2
+      ? " ATENCIÓN: el archivo tiene " +
+        Math.floor(antiguedadHoras) +
+        " horas de antigüedad. Estos datos NO son en tiempo real."
+      : "";
     document.getElementById("estado").textContent =
-      "Se muestran " +
-      formatoNumero.format(visibles.length) +
-      " detecciones de las últimas 24 horas " +
-      "en Paraguay y zonas limítrofes.";
+      "Se muestran " + formatoNumero.format(visibles.length) +
+      " detecciones del intervalo de 24 horas anterior a la última actualización " +
+      "del archivo (" + formatoNumero.format(recientes.length) +
+      " antes del filtro de sensores). " +
+      "La cobertura geográfica depende del filtro aplicado por actualizar_focos.py." + aviso;
   }
 
   async function cargarDatos() {
