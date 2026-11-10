@@ -156,7 +156,7 @@
 
     <div class="tarjeta">
       <div class="etiqueta">
-        Detecciones en el último archivo (24 h)
+        Detecciones últimas 24 horas
       </div>
       <div class="valor" id="focos">--</div>
     </div>
@@ -274,7 +274,7 @@
         <button type="button" class="boton" id="recargarGoes">Actualizar imagen GOES</button>
       </div>
       <div id="mapaGoes" aria-label="Mapa satelital NOAA GOES-East"></div>
-      <p class="nota" id="estadoGoes" role="status" aria-live="polite">Abrí esta pestaña para cargar las imágenes de NOAA.</p>
+      <p class="nota" id="estadoGoes" role="status" aria-live="polite">Abrí esta pestaña para cargar imágenes GOES-East desde NOAA.</p>
       <p class="nota">Fuente: <a href="https://www.nesdis.noaa.gov/imagery/satellite-maps" target="_blank" rel="noopener noreferrer">NOAA NESDIS Satellite Maps</a>. La disponibilidad y la actualización dependen del servicio oficial.</p>
     </div>
   </section>
@@ -363,20 +363,16 @@
 
     const seleccionados = sensoresSeleccionados();
 
-    // La ventana corresponde a la última actualización del archivo,
-    // no a la hora actual del navegador (que puede ser posterior).
-    const referencia = fechaActualizacion instanceof Date &&
-      Number.isFinite(fechaActualizacion.getTime())
-      ? fechaActualizacion.getTime()
-      : Math.max(0, ...datosActuales.map(d =>
-          obtenerFechaDeteccion(d)?.getTime() || 0));
-    const inicio = referencia - 24 * 60 * 60 * 1000;
+    // Ventana referida al archivo descargado, no al reloj del navegador.
+    const ahora = fechaActualizacion instanceof Date && !Number.isNaN(fechaActualizacion.getTime())
+      ? fechaActualizacion.getTime() : Date.now();
+    const inicio = ahora - 24 * 60 * 60 * 1000;
 
     const recientes = datosActuales.filter(d => {
       const momento = obtenerFechaDeteccion(d);
       return momento &&
         momento.getTime() >= inicio &&
-        momento.getTime() <= referencia;
+        momento.getTime() <= ahora;
     });
 
     const visibles = recientes.filter(
@@ -444,21 +440,13 @@
     document.getElementById("sensores").textContent =
       fuentesConDatos.size;
 
-    const antiguedadHoras = fechaActualizacion instanceof Date &&
-      Number.isFinite(fechaActualizacion.getTime())
-      ? (Date.now() - fechaActualizacion.getTime()) / 3600000
-      : NaN;
-    const aviso = Number.isFinite(antiguedadHoras) && antiguedadHoras > 2
-      ? " ATENCIÓN: el archivo tiene " +
-        Math.floor(antiguedadHoras) +
-        " horas de antigüedad. Estos datos NO son en tiempo real."
-      : "";
     document.getElementById("estado").textContent =
-      "Se muestran " + formatoNumero.format(visibles.length) +
-      " detecciones del intervalo de 24 horas anterior a la última actualización " +
-      "del archivo (" + formatoNumero.format(recientes.length) +
-      " antes del filtro de sensores). " +
-      "La cobertura geográfica depende del filtro aplicado por actualizar_focos.py." + aviso;
+      "Se muestran " +
+      formatoNumero.format(visibles.length) +
+      " detecciones de las últimas 24 horas " +
+      "en Paraguay y zonas limítrofes (según el último archivo publicado)." +
+      (Date.now() - ahora > 2 * 60 * 60 * 1000
+        ? " ATENCIÓN: los datos están desactualizados; revisar GitHub Actions." : "");
   }
 
   async function cargarDatos() {
@@ -523,12 +511,75 @@
   document.getElementById("recargar")
     .addEventListener("click", cargarDatos);
 
-  // Activar pestañas y preparar el segundo mapa solo al abrirlo.
+  // Pestañas y visualización GOES-East mediante NOAA ArcGIS ImageServer.
   const tabFirms = document.getElementById("tabFirms");
   const tabGoes = document.getElementById("tabGoes");
   const panelFirms = document.getElementById("panelFirms");
   const panelGoes = document.getElementById("panelGoes");
+  const estadoGoes = document.getElementById("estadoGoes");
+  const selectorGoes = document.getElementById("tipoGoes");
+  const btnGoes = document.getElementById("recargarGoes");
+  const SERVICIOS_GOES = {
+    ABIGC_Last_24hr: "Most_Recent_ABIGC",
+    ABI13_Last_24hr: "Most_Recent_ABI13"
+  };
+  const NOAA_BASE = "https://satellitemaps.nesdis.noaa.gov/arcgis/rest/services/";
   let mapaGoes = null;
+  let capaImagenGoes = null;
+  let solicitudGoes = 0;
+  let temporizadorGoes = null;
+
+  function cargarImagenGoes() {
+    if (!mapaGoes || panelGoes.hidden) return;
+    const servicio = SERVICIOS_GOES[selectorGoes.value];
+    if (!servicio) {
+      estadoGoes.textContent = "Producto GOES no reconocido.";
+      return;
+    }
+    const limites = mapaGoes.getBounds();
+    const tam = mapaGoes.getSize();
+    // ArcGIS exportImage devuelve una imagen georreferenciada al área visible.
+    const ancho = Math.max(300, Math.min(Math.round(tam.x), 1500));
+    const alto = Math.max(250, Math.min(Math.round(tam.y), 1000));
+    const parametros = new URLSearchParams({
+      f: "image",
+      bbox: [limites.getWest(), limites.getSouth(), limites.getEast(), limites.getNorth()].join(","),
+      bboxSR: "4326",
+      imageSR: "4326",
+      size: ancho + "," + alto,
+      format: "png32",
+      pixelType: "U8",
+      interpolation: "+RSP_BilinearInterpolation",
+      transparent: "true",
+      _t: String(Date.now())
+    });
+    const url = NOAA_BASE + servicio + "/ImageServer/exportImage?" + parametros.toString();
+    const turno = ++solicitudGoes;
+    estadoGoes.textContent = "Solicitando imagen real de NOAA GOES-East...";
+    btnGoes.disabled = true;
+    const imagen = new Image();
+    imagen.onload = () => {
+      if (turno !== solicitudGoes) return;
+      if (capaImagenGoes) mapaGoes.removeLayer(capaImagenGoes);
+      capaImagenGoes = L.imageOverlay(url, limites, {opacity: 0.92, interactive: false}).addTo(mapaGoes);
+      capaImagenGoes.bringToFront();
+      estadoGoes.textContent = "Imagen NOAA GOES-East cargada. Producto: " +
+        (selectorGoes.value === "ABIGC_Last_24hr" ? "GeoColor" : "Infrarrojo banda 13") +
+        ". Al mover el mapa se solicitará otra imagen. La fecha de adquisición depende de NOAA.";
+      btnGoes.disabled = false;
+    };
+    imagen.onerror = () => {
+      if (turno !== solicitudGoes) return;
+      estadoGoes.textContent = "No se pudo obtener la imagen de NOAA. Verificá la conexión o la disponibilidad del servicio; el mapa base permanece visible.";
+      btnGoes.disabled = false;
+    };
+    imagen.src = url;
+  }
+
+  function programarImagenGoes() {
+    clearTimeout(temporizadorGoes);
+    temporizadorGoes = setTimeout(cargarImagenGoes, 450);
+  }
 
   function cambiarPestana(goes) {
     panelFirms.hidden = goes;
@@ -539,30 +590,26 @@
     tabGoes.setAttribute("aria-selected", String(goes));
     if (goes) {
       if (!mapaGoes) {
-        mapaGoes = L.map("mapaGoes").setView([-23.5, -58.5], 6);
+        mapaGoes = L.map("mapaGoes", {zoomControl: true}).setView([-23.5, -58.5], 6);
         L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
           maxZoom: 19,
           attribution: "&copy; OpenStreetMap contributors"
         }).addTo(mapaGoes);
+        mapaGoes.on("moveend", programarImagenGoes);
       }
-      setTimeout(() => mapaGoes.invalidateSize(), 50);
-      document.getElementById("estadoGoes").textContent =
-        "La pestaña ya funciona. La capa de imágenes GOES todavía necesita conectarse a un servicio NOAA compatible; este mapa es solo la base cartográfica.";
+      setTimeout(() => {
+        mapaGoes.invalidateSize();
+        cargarImagenGoes();
+      }, 120);
     } else {
-      setTimeout(() => mapa.invalidateSize(), 50);
+      setTimeout(() => mapa.invalidateSize(), 80);
     }
   }
 
   tabFirms.addEventListener("click", () => cambiarPestana(false));
   tabGoes.addEventListener("click", () => cambiarPestana(true));
-  document.getElementById("recargarGoes").addEventListener("click", () => {
-    document.getElementById("estadoGoes").textContent =
-      "No se ha configurado aún una capa GOES válida. Consultá las imágenes oficiales de NOAA en el enlace inferior.";
-  });
-  document.getElementById("tipoGoes").addEventListener("change", () => {
-    document.getElementById("estadoGoes").textContent =
-      "Visualización seleccionada. Falta configurar la capa satelital NOAA para mostrarla.";
-  });
+  btnGoes.addEventListener("click", cargarImagenGoes);
+  selectorGoes.addEventListener("change", cargarImagenGoes);
 
   cargarDatos();
 
