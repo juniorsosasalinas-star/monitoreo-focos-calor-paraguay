@@ -1,7 +1,7 @@
 {
-  "actualizado_utc": "2026-11-10T02:54:43.695180+00:00",
+  "actualizado_utc": "2026-11-10T03:55:09.768159+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 16,
+  "total_detecciones": 32,
   "detecciones": [
     {
       "lat": -23.69737,
@@ -160,6 +160,166 @@
       "hora_utc": "2",
       "frp": "36.04",
       "confianza": "52",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.50751,
+      "lon": -60.99444,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "47.34",
+      "confianza": "46",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.79335,
+      "lon": -61.20144,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "78.13",
+      "confianza": "75",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.79167,
+      "lon": -61.20659,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "110.82",
+      "confianza": "87",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.78609,
+      "lon": -61.24896,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "42.02",
+      "confianza": "49",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.77645,
+      "lon": -61.2062,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "204.02",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.77478,
+      "lon": -61.2114,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "197.95",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.6137,
+      "lon": -61.40422,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "40.56",
+      "confianza": "34",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.60446,
+      "lon": -61.36204,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "45.68",
+      "confianza": "46",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.59953,
+      "lon": -61.40311,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "103.8",
+      "confianza": "89",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.59694,
+      "lon": -61.40895,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "54.34",
+      "confianza": "65",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.58998,
+      "lon": -61.36103,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "48.83",
+      "confianza": "30",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.58765,
+      "lon": -61.36678,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "43.44",
+      "confianza": "48",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.13434,
+      "lon": -61.49744,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "34.27",
+      "confianza": "27",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.13413,
+      "lon": -61.49213,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "33.5",
+      "confianza": "34",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.88892,
+      "lon": -61.39275,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "61.56",
+      "confianza": "64",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.88764,
+      "lon": -61.38582,
+      "fecha": "2026-11-10",
+      "hora_utc": "138",
+      "frp": "71.78",
+      "confianza": "72",
       "satelite": "Terra",
       "fuente": "MODIS_NRT"
     }
