@@ -1,7 +1,7 @@
 {
-  "actualizado_utc": "2026-11-10T08:22:06.468203+00:00",
+  "actualizado_utc": "2026-11-10T09:58:36.411016+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 463,
+  "total_detecciones": 496,
   "detecciones": [
     {
       "lat": -27.65825,
@@ -4631,6 +4631,336 @@
       "frp": "71.78",
       "confianza": "72",
       "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.60009,
+      "lon": -61.36759,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "5.7",
+      "confianza": "12",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.59863,
+      "lon": -61.37727,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "11.46",
+      "confianza": "78",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.59716,
+      "lon": -61.38695,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "8.51",
+      "confianza": "55",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.82472,
+      "lon": -60.49189,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "5.24",
+      "confianza": "19",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.81588,
+      "lon": -60.49036,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "14.96",
+      "confianza": "91",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.81445,
+      "lon": -60.5001,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "4.72",
+      "confianza": "19",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.02073,
+      "lon": -61.36209,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "6.89",
+      "confianza": "64",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.87917,
+      "lon": -61.37339,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "7.04",
+      "confianza": "56",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.69501,
+      "lon": -59.69719,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "5.57",
+      "confianza": "44",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.69361,
+      "lon": -59.70708,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "14.76",
+      "confianza": "89",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.68424,
+      "lon": -59.69967,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "7.88",
+      "confianza": "65",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.38761,
+      "lon": -61.32354,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "7.82",
+      "confianza": "70",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.38613,
+      "lon": -61.33309,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "30.23",
+      "confianza": "100",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.29493,
+      "lon": -58.86959,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "12.08",
+      "confianza": "78",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.97189,
+      "lon": -61.96559,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "8.58",
+      "confianza": "70",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.96292,
+      "lon": -61.96396,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "4.8",
+      "confianza": "23",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.23419,
+      "lon": -56.93275,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "7.43",
+      "confianza": "59",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.95159,
+      "lon": -58.69043,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "6.02",
+      "confianza": "46",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.94734,
+      "lon": -58.72021,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "9.62",
+      "confianza": "73",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.74615,
+      "lon": -61.23316,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "6.29",
+      "confianza": "49",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.72238,
+      "lon": -61.26829,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "6.43",
+      "confianza": "39",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.52222,
+      "lon": -61.13254,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "8.04",
+      "confianza": "64",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.22093,
+      "lon": -59.14655,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "9.41",
+      "confianza": "76",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.20789,
+      "lon": -59.17363,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "17.27",
+      "confianza": "97",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.20651,
+      "lon": -59.18312,
+      "fecha": "2026-11-10",
+      "hora_utc": "737",
+      "frp": "5.68",
+      "confianza": "29",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.51591,
+      "lon": -60.98666,
+      "fecha": "2026-11-10",
+      "hora_utc": "739",
+      "frp": "13.44",
+      "confianza": "76",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.51446,
+      "lon": -60.99652,
+      "fecha": "2026-11-10",
+      "hora_utc": "739",
+      "frp": "14.05",
+      "confianza": "79",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.79273,
+      "lon": -61.19562,
+      "fecha": "2026-11-10",
+      "hora_utc": "739",
+      "frp": "6.34",
+      "confianza": "59",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.79128,
+      "lon": -61.20533,
+      "fecha": "2026-11-10",
+      "hora_utc": "739",
+      "frp": "23.98",
+      "confianza": "100",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.78983,
+      "lon": -61.21505,
+      "fecha": "2026-11-10",
+      "hora_utc": "739",
+      "frp": "12.5",
+      "confianza": "87",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.78394,
+      "lon": -61.19404,
+      "fecha": "2026-11-10",
+      "hora_utc": "739",
+      "frp": "24.26",
+      "confianza": "100",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.78249,
+      "lon": -61.20375,
+      "fecha": "2026-11-10",
+      "hora_utc": "739",
+      "frp": "66.69",
+      "confianza": "100",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.78104,
+      "lon": -61.21347,
+      "fecha": "2026-11-10",
+      "hora_utc": "739",
+      "frp": "9.97",
+      "confianza": "80",
+      "satelite": "Aqua",
       "fuente": "MODIS_NRT"
     }
   ]
