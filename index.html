@@ -131,7 +131,8 @@
     .pestana { border:1px solid #cbd7e5; border-radius:9px; background:#f1f5fa; color:#17304b; padding:12px 17px; font-weight:bold; cursor:pointer; }
     .pestana.activa { background:#17304b; color:white; }
     [hidden] { display:none !important; }
-    #mapaGoes { height:570px; border-radius:12px; overflow:hidden; background:#172d40; }
+    #mapaGoes { height:570px; border-radius:12px; overflow:hidden; background:#172d40; position:relative; }
+    .hora-goes { position:absolute; right:12px; top:12px; z-index:900; background:rgba(23,48,75,.94); color:white; border-radius:8px; padding:9px 12px; font-size:13px; font-weight:bold; box-shadow:0 2px 8px #0004; max-width:calc(100% - 70px); pointer-events:none; }
     .controles-goes { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-bottom:14px; }
     .controles-goes select { padding:10px; border:1px solid #cbd7e5; border-radius:7px; }
     @media (max-width: 650px) {
@@ -273,7 +274,7 @@
         </select>
         <button type="button" class="boton" id="recargarGoes">Actualizar imagen GOES</button>
       </div>
-      <div id="mapaGoes" aria-label="Mapa satelital NOAA GOES-East"></div>
+      <div id="mapaGoes" aria-label="Mapa satelital NOAA GOES-East"><div id="horaImagenGoes" class="hora-goes" aria-live="polite">Hora de imagen: consultando NOAA…</div></div>
       <p class="nota" id="estadoGoes" role="status" aria-live="polite">Abrí esta pestaña para cargar imágenes GOES-East desde NOAA.</p>
       <p class="nota">Fuente: <a href="https://www.nesdis.noaa.gov/imagery/satellite-maps" target="_blank" rel="noopener noreferrer">NOAA NESDIS Satellite Maps</a>. La disponibilidad y la actualización dependen del servicio oficial.</p>
     </div>
@@ -528,6 +529,37 @@
   let capaImagenGoes = null;
   let solicitudGoes = 0;
   let temporizadorGoes = null;
+  const horaImagenGoes = document.getElementById("horaImagenGoes");
+  let consultaHoraGoes = 0;
+
+  // La fecha se obtiene de los metadatos oficiales, no del reloj del navegador.
+  async function consultarHoraImagenGoes(servicio) {
+    const turno = ++consultaHoraGoes;
+    horaImagenGoes.textContent = "Hora de imagen: consultando NOAA…";
+    try {
+      const url = NOAA_BASE + servicio + "/ImageServer?f=pjson&_t=" + Date.now();
+      const respuesta = await fetch(url, {cache: "no-store"});
+      if (!respuesta.ok) throw new Error("Metadatos no disponibles");
+      const metadata = await respuesta.json();
+      // timeInfo.timeExtent describe el intervalo temporal del servicio.
+      const fin = metadata?.timeInfo?.timeExtent?.[1];
+      const fecha = fin == null ? null : new Date(fin);
+      if (turno !== consultaHoraGoes) return;
+      if (!fecha || Number.isNaN(fecha.getTime())) {
+        horaImagenGoes.textContent = "Hora de imagen: no publicada por NOAA";
+        return;
+      }
+      horaImagenGoes.textContent = "Última hora disponible (NOAA): " +
+        fecha.toLocaleString("es-PY", {
+          timeZone: "America/Asuncion", day: "2-digit", month: "2-digit",
+          year: "numeric", hour: "2-digit", minute: "2-digit", hour12: false
+        }) + " PY";
+    } catch (error) {
+      if (turno === consultaHoraGoes) {
+        horaImagenGoes.textContent = "Hora de imagen: no disponible";
+      }
+    }
+  }
 
   function cargarImagenGoes() {
     if (!mapaGoes || panelGoes.hidden) return;
@@ -536,6 +568,7 @@
       estadoGoes.textContent = "Producto GOES no reconocido.";
       return;
     }
+    consultarHoraImagenGoes(servicio);
     const limites = mapaGoes.getBounds();
     const tam = mapaGoes.getSize();
     // ArcGIS exportImage devuelve una imagen georreferenciada al área visible.
