@@ -1,7 +1,7 @@
 {
-  "actualizado_utc": "2026-11-11T02:07:10.553479+00:00",
+  "actualizado_utc": "2026-11-11T02:55:42.716527+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 4,
+  "total_detecciones": 172,
   "detecciones": [
     {
       "lat": -27.27021,
@@ -34,12 +34,1692 @@
       "fuente": "MODIS_NRT"
     },
     {
+      "lat": -26.98184,
+      "lon": -60.38853,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "4.72",
+      "confianza": "57",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.98047,
+      "lon": -60.37672,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "8.64",
+      "confianza": "75",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
       "lat": -26.93107,
       "lon": -58.76609,
       "fecha": "2026-11-11",
       "hora_utc": "39",
       "frp": "3.84",
       "confianza": "20",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.82246,
+      "lon": -60.67989,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "43.89",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.82131,
+      "lon": -60.68586,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "24.48",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.81987,
+      "lon": -60.67372,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "22.65",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.73516,
+      "lon": -59.3154,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "3.86",
+      "confianza": "45",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.70946,
+      "lon": -57.926,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "4.39",
+      "confianza": "57",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.51309,
+      "lon": -60.99941,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.37",
+      "confianza": "67",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.51168,
+      "lon": -60.98692,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.02",
+      "confianza": "74",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.43028,
+      "lon": -60.5602,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6",
+      "confianza": "67",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.37618,
+      "lon": -59.60246,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6.57",
+      "confianza": "67",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.26494,
+      "lon": -59.15375,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6.31",
+      "confianza": "66",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.25506,
+      "lon": -60.87861,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "25.72",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.12859,
+      "lon": -60.1379,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "10.93",
+      "confianza": "84",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.12725,
+      "lon": -60.12672,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.82",
+      "confianza": "81",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.10143,
+      "lon": -60.77188,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "8.19",
+      "confianza": "78",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.09994,
+      "lon": -60.77786,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6.26",
+      "confianza": "71",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.07712,
+      "lon": -54.60198,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "22.2",
+      "confianza": "97",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.07517,
+      "lon": -54.59002,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "164.71",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.07398,
+      "lon": -54.59659,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "96.27",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.0721,
+      "lon": -54.58461,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "85.54",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.06425,
+      "lon": -54.59842,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "30.95",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.06236,
+      "lon": -54.58644,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "28.76",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.97173,
+      "lon": -60.88845,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "21.83",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.97032,
+      "lon": -60.87636,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "12.94",
+      "confianza": "88",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.84082,
+      "lon": -60.03063,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "4.77",
+      "confianza": "61",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.83053,
+      "lon": -54.79264,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.89",
+      "confianza": "30",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.82156,
+      "lon": -60.47308,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "15.87",
+      "confianza": "96",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.60778,
+      "lon": -55.95383,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6.03",
+      "confianza": "57",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.47041,
+      "lon": -57.35351,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "7.7",
+      "confianza": "76",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.16081,
+      "lon": -57.37586,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6.69",
+      "confianza": "71",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.15037,
+      "lon": -59.76921,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "11.1",
+      "confianza": "91",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.14117,
+      "lon": -59.77063,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "72.64",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.13984,
+      "lon": -59.76012,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "171.44",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.13851,
+      "lon": -59.74963,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.01",
+      "confianza": "83",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.13064,
+      "lon": -59.76154,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "7.14",
+      "confianza": "78",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.111,
+      "lon": -60.18422,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.01",
+      "confianza": "80",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.103,
+      "lon": -60.19653,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "23.21",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.10164,
+      "lon": -60.18563,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "87.63",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.10028,
+      "lon": -60.17474,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "77.62",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.09758,
+      "lon": -60.15302,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "16.89",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.09622,
+      "lon": -60.14218,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "27.73",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.09487,
+      "lon": -60.13134,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "7.19",
+      "confianza": "79",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.09364,
+      "lon": -60.19793,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "25.39",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.09229,
+      "lon": -60.18703,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "74.61",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.09093,
+      "lon": -60.17616,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "15.97",
+      "confianza": "99",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.08959,
+      "lon": -60.1653,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.18",
+      "confianza": "52",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.08689,
+      "lon": -60.14359,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "11.62",
+      "confianza": "91",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.08554,
+      "lon": -60.13275,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "4.87",
+      "confianza": "70",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.08293,
+      "lon": -60.18844,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "14.39",
+      "confianza": "96",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.08158,
+      "lon": -60.17757,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.83",
+      "confianza": "87",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.07344,
+      "lon": -60.03575,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "10.88",
+      "confianza": "88",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.0721,
+      "lon": -60.02502,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "19.92",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.07084,
+      "lon": -60.09094,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.04",
+      "confianza": "69",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.06415,
+      "lon": -60.03716,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "8.23",
+      "confianza": "81",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.06281,
+      "lon": -60.02643,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "16.41",
+      "confianza": "99",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.04374,
+      "lon": -54.56906,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.38",
+      "confianza": "61",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.95466,
+      "lon": -59.74743,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.51",
+      "confianza": "57",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.94682,
+      "lon": -59.75929,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.28",
+      "confianza": "73",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.94549,
+      "lon": -59.74885,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6.37",
+      "confianza": "77",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.93132,
+      "lon": -56.61614,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.78",
+      "confianza": "80",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.89605,
+      "lon": -60.63537,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "14.48",
+      "confianza": "96",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.89471,
+      "lon": -60.62404,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "111.53",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.89337,
+      "lon": -60.61273,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "140.21",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.89203,
+      "lon": -60.60142,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "200.9",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.89124,
+      "lon": -60.63087,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "28.73",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.88984,
+      "lon": -60.61957,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "62.03",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.88846,
+      "lon": -60.60827,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "237.05",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.88707,
+      "lon": -60.59699,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "154.68",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.87893,
+      "lon": -60.60967,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "184.53",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.87755,
+      "lon": -60.59838,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "55.07",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.87227,
+      "lon": -60.27666,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.43",
+      "confianza": "73",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.85388,
+      "lon": -59.2511,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "4.9",
+      "confianza": "66",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.75972,
+      "lon": -60.70208,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "7.04",
+      "confianza": "77",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.72469,
+      "lon": -58.68977,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "8.55",
+      "confianza": "82",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.69372,
+      "lon": -59.50555,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.74",
+      "confianza": "71",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.63153,
+      "lon": -59.16548,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6.26",
+      "confianza": "75",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.56746,
+      "lon": -60.03459,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "4.39",
+      "confianza": "68",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.54973,
+      "lon": -60.7219,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "13.82",
+      "confianza": "95",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.54152,
+      "lon": -60.73462,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "34.44",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.54018,
+      "lon": -60.72329,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "64.64",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.53681,
+      "lon": -60.73007,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "28.4",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.53565,
+      "lon": -58.99399,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "4.72",
+      "confianza": "32",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.52865,
+      "lon": -60.74278,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.94",
+      "confianza": "88",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.52048,
+      "lon": -60.7555,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.69",
+      "confianza": "76",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.5191,
+      "lon": -60.74417,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "16.32",
+      "confianza": "99",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.51072,
+      "lon": -60.59673,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "100.28",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.50934,
+      "lon": -60.58559,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "151.97",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.50797,
+      "lon": -60.57447,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "8.44",
+      "confianza": "48",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.50534,
+      "lon": -60.63162,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "11.37",
+      "confianza": "92",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.50397,
+      "lon": -60.62044,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.46",
+      "confianza": "82",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.5026,
+      "lon": -60.60927,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "194.78",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.50124,
+      "lon": -60.59812,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "1960.7",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.49987,
+      "lon": -60.58698,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "1155.9",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.4985,
+      "lon": -60.57586,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "193.02",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.49714,
+      "lon": -60.56475,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "49.61",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.49577,
+      "lon": -60.55365,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.46",
+      "confianza": "67",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.49448,
+      "lon": -60.62183,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "4.95",
+      "confianza": "37",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.49312,
+      "lon": -60.61067,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6.39",
+      "confianza": "80",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.49176,
+      "lon": -60.59951,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "62.96",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.49039,
+      "lon": -60.58838,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "243.73",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.48903,
+      "lon": -60.57726,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "61.52",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.48767,
+      "lon": -60.56615,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.5",
+      "confianza": "41",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.48631,
+      "lon": -60.55505,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "14.4",
+      "confianza": "98",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.3926,
+      "lon": -58.88845,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.25",
+      "confianza": "46",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -24.27481,
+      "lon": -59.67376,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "4.4",
+      "confianza": "68",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.88404,
+      "lon": -61.37397,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "11.62",
+      "confianza": "89",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.88307,
+      "lon": -61.38053,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6.66",
+      "confianza": "71",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.88163,
+      "lon": -61.36859,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "8.34",
+      "confianza": "78",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.7042,
+      "lon": -59.73625,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.48",
+      "confianza": "86",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.47199,
+      "lon": -55.73812,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6.44",
+      "confianza": "56",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.45321,
+      "lon": -59.7113,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "10.11",
+      "confianza": "89",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.45191,
+      "lon": -59.70126,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "13.5",
+      "confianza": "97",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.45062,
+      "lon": -59.69123,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "14.71",
+      "confianza": "99",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.44932,
+      "lon": -59.68121,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "18.13",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.41543,
+      "lon": -61.27922,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "6.03",
+      "confianza": "76",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.41407,
+      "lon": -61.2676,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "5.12",
+      "confianza": "73",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.4121,
+      "lon": -61.27367,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "8.3",
+      "confianza": "83",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.31554,
+      "lon": -59.08454,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "4.76",
+      "confianza": "26",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.31424,
+      "lon": -59.07483,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "7.54",
+      "confianza": "49",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.3011,
+      "lon": -58.8338,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "4.88",
+      "confianza": "28",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.16273,
+      "lon": -57.57586,
+      "fecha": "2026-11-11",
+      "hora_utc": "39",
+      "frp": "9.95",
+      "confianza": "87",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.99,
+      "lon": -59.60988,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "26.27",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.91291,
+      "lon": -59.30165,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "8.61",
+      "confianza": "84",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.77177,
+      "lon": -60.85436,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "31.52",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.77043,
+      "lon": -60.8435,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "10.45",
+      "confianza": "86",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.76748,
+      "lon": -59.94716,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "7.2",
+      "confianza": "70",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.5084,
+      "lon": -57.51043,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "3.85",
+      "confianza": "61",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.50109,
+      "lon": -56.1537,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "13.95",
+      "confianza": "90",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.48454,
+      "lon": -62.10566,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "25.62",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.48306,
+      "lon": -62.09317,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "40.64",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.3388,
+      "lon": -56.1731,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "4.79",
+      "confianza": "47",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.19945,
+      "lon": -58.84935,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "5.73",
+      "confianza": "71",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.15976,
+      "lon": -60.86561,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "12.09",
+      "confianza": "91",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.90702,
+      "lon": -59.76003,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "12.11",
+      "confianza": "94",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.90574,
+      "lon": -59.75028,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "67.41",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.89223,
+      "lon": -62.17194,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "18.31",
+      "confianza": "96",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.86953,
+      "lon": -61.97672,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "14.58",
+      "confianza": "89",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.81215,
+      "lon": -58.38243,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "4.77",
+      "confianza": "58",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.7827,
+      "lon": -62.27461,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "19.83",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.77325,
+      "lon": -61.76686,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "10.59",
+      "confianza": "80",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.65721,
+      "lon": -62.24689,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "6.85",
+      "confianza": "65",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.29914,
+      "lon": -59.13744,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "13.18",
+      "confianza": "98",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.29156,
+      "lon": -59.14831,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "10.96",
+      "confianza": "91",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.23531,
+      "lon": -56.93784,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "6.47",
+      "confianza": "68",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.03576,
+      "lon": -59.91476,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "12.34",
+      "confianza": "95",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.03487,
+      "lon": -61.28637,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "19.31",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.0268,
+      "lon": -59.91613,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "146.68",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.02552,
+      "lon": -59.90646,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "21.16",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.76701,
+      "lon": -61.26611,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "6.21",
+      "confianza": "41",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.75498,
+      "lon": -61.24611,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "17.46",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.73939,
+      "lon": -61.24374,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "16.52",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.72596,
+      "lon": -61.2891,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "17.54",
+      "confianza": "97",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.72462,
+      "lon": -61.27841,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "14.7",
+      "confianza": "95",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.39724,
+      "lon": -62.69026,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "6.3",
+      "confianza": "59",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.31073,
+      "lon": -59.3121,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "4.49",
+      "confianza": "51",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.30945,
+      "lon": -59.3027,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "11.87",
+      "confianza": "91",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.24718,
+      "lon": -59.17813,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "10.87",
+      "confianza": "90",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.24332,
+      "lon": -59.14997,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "5.91",
+      "confianza": "69",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.24203,
+      "lon": -59.14058,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "22.77",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.21676,
+      "lon": -59.15416,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "10.55",
+      "confianza": "91",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.21547,
+      "lon": -59.14477,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "7.9",
+      "confianza": "81",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.2079,
+      "lon": -59.15555,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "21.03",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.20662,
+      "lon": -59.14617,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "98.93",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.20533,
+      "lon": -59.13678,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "30.49",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.152,
+      "lon": -58.36524,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "7.82",
+      "confianza": "77",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -19.52884,
+      "lon": -59.78538,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "6.69",
+      "confianza": "73",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -19.4629,
+      "lon": -59.69959,
+      "fecha": "2026-11-11",
+      "hora_utc": "41",
+      "frp": "4.36",
+      "confianza": "59",
       "satelite": "Terra",
       "fuente": "MODIS_NRT"
     }
