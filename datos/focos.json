@@ -1,7 +1,7 @@
 {
-  "actualizado_utc": "2026-11-12T19:59:07.352398+00:00",
+  "actualizado_utc": "2026-11-12T20:55:14.237482+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 1191,
+  "total_detecciones": 1622,
   "detecciones": [
     {
       "lat": -22.49926,
@@ -9729,6 +9729,4316 @@
       "fecha": "2026-11-12",
       "hora_utc": "1622",
       "frp": "3.94",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.5346,
+      "lon": -60.69432,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.32",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.53094,
+      "lon": -60.69516,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.32",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.45869,
+      "lon": -55.44655,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "14.67",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.45727,
+      "lon": -55.44028,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "14.67",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.4572,
+      "lon": -55.44228,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "33.09",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.45234,
+      "lon": -55.44157,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "14.67",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.21074,
+      "lon": -58.71075,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.49",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.20666,
+      "lon": -58.71179,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.49",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.20585,
+      "lon": -58.7077,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.49",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.20503,
+      "lon": -58.70358,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.88",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.20043,
+      "lon": -60.64194,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.52",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.16427,
+      "lon": -60.15501,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.22",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.16123,
+      "lon": -58.86388,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.65",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.08992,
+      "lon": -61.40574,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.36",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.06902,
+      "lon": -60.39972,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.93",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.04621,
+      "lon": -58.60801,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.24",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.00228,
+      "lon": -60.99809,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.21",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -27.00006,
+      "lon": -59.67142,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.84",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.99936,
+      "lon": -59.669,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "16.36",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.99332,
+      "lon": -59.67881,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.71",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.99228,
+      "lon": -59.67329,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.07",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.99152,
+      "lon": -59.69077,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "14.73",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.99048,
+      "lon": -59.68526,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.71",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.99,
+      "lon": -61.52137,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "30.11",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.98522,
+      "lon": -60.5996,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.62",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.96851,
+      "lon": -60.63446,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.93",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.96023,
+      "lon": -60.19208,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.47",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.95825,
+      "lon": -59.05481,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.57",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.95423,
+      "lon": -59.0558,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.57",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.90459,
+      "lon": -62.4563,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "14.53",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.90417,
+      "lon": -59.10128,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.26",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.90093,
+      "lon": -59.10621,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.56",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.90077,
+      "lon": -59.10637,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.58",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.89692,
+      "lon": -59.10719,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.56",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.89676,
+      "lon": -59.10736,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.58",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.89534,
+      "lon": -59.09931,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.53",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.89524,
+      "lon": -59.09946,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.36",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.89456,
+      "lon": -59.09536,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.53",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.89447,
+      "lon": -59.09551,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.36",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.89122,
+      "lon": -59.10045,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "12.46",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.88507,
+      "lon": -60.24932,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "2.6",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.88298,
+      "lon": -59.12316,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.23",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.88221,
+      "lon": -59.11922,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.73",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.85999,
+      "lon": -61.7589,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "65.58",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.8592,
+      "lon": -61.75444,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "118.35",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.85841,
+      "lon": -61.74998,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "118.35",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.85761,
+      "lon": -61.74552,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "71.31",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.85645,
+      "lon": -61.75968,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "65.58",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.85566,
+      "lon": -61.75522,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "118.35",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.85487,
+      "lon": -61.75076,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "118.35",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.85292,
+      "lon": -61.76045,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "110.92",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.85134,
+      "lon": -61.75153,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "120.21",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.84311,
+      "lon": -59.19875,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.34",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.8197,
+      "lon": -60.67889,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.27",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.81034,
+      "lon": -61.67934,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.28",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.67891,
+      "lon": -59.56531,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.64",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.65785,
+      "lon": -60.96968,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.11",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.65624,
+      "lon": -62.67102,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.03",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.65554,
+      "lon": -62.66685,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "28.36",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.65421,
+      "lon": -62.68007,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "118.17",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.65351,
+      "lon": -62.67591,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "97.03",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.65281,
+      "lon": -62.67174,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "97.03",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.65211,
+      "lon": -62.66757,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "60.11",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.65141,
+      "lon": -62.66341,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "60.11",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.65008,
+      "lon": -62.67663,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "97.03",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64944,
+      "lon": -62.69399,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.72",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64938,
+      "lon": -62.67246,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "97.03",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64875,
+      "lon": -62.68983,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.72",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64868,
+      "lon": -62.6683,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "60.11",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64805,
+      "lon": -62.68568,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.73",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64798,
+      "lon": -62.66413,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "60.11",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64735,
+      "lon": -62.68151,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.73",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64665,
+      "lon": -62.67735,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "64.77",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64595,
+      "lon": -62.67319,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "64.77",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64532,
+      "lon": -62.69056,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.72",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64525,
+      "lon": -62.66902,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "57.45",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64462,
+      "lon": -62.6864,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.73",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64455,
+      "lon": -62.66486,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "57.45",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64392,
+      "lon": -62.68224,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.73",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64322,
+      "lon": -62.67808,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "64.77",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.64252,
+      "lon": -62.67391,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "64.77",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.60436,
+      "lon": -57.67596,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.26",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.60434,
+      "lon": -59.20619,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.01",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.60366,
+      "lon": -57.67764,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.29",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.60338,
+      "lon": -57.67117,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.26",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.60265,
+      "lon": -57.67286,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.29",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.60164,
+      "lon": -57.66806,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.55",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.60148,
+      "lon": -57.75211,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.31",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.60051,
+      "lon": -57.74734,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.08",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.599,
+      "lon": -57.67231,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.32",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.5584,
+      "lon": -56.03687,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.73",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.5378,
+      "lon": -61.62426,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "15.69",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.51987,
+      "lon": -60.55757,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.54",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.51949,
+      "lon": -60.55457,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.61",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.51896,
+      "lon": -60.55252,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.54",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.50107,
+      "lon": -60.39418,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "2.79",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.45128,
+      "lon": -60.95214,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.3",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.43224,
+      "lon": -61.14133,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "141.77",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.43138,
+      "lon": -61.13657,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "20.29",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.42946,
+      "lon": -61.14689,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "84",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.4286,
+      "lon": -61.14215,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "84",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.42582,
+      "lon": -61.14771,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "84",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.42495,
+      "lon": -61.14296,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "84",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.42225,
+      "lon": -57.81293,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.96",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.41799,
+      "lon": -58.64758,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "18.06",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.41383,
+      "lon": -58.64861,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.82",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.40722,
+      "lon": -57.80679,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.24",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.40286,
+      "lon": -57.80793,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.24",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.40189,
+      "lon": -57.80317,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.79",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.37059,
+      "lon": -60.42447,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.69",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.36681,
+      "lon": -60.42534,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.22",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.36303,
+      "lon": -60.42621,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.22",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.36212,
+      "lon": -62.497,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.69",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.35867,
+      "lon": -62.49773,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.69",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.35521,
+      "lon": -62.49846,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.9",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.35175,
+      "lon": -62.4992,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.9",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.3503,
+      "lon": -62.49074,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.65",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.34684,
+      "lon": -62.49147,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "16.23",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.32989,
+      "lon": -56.01897,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.99",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.28621,
+      "lon": -60.7099,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "153.28",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.2853,
+      "lon": -60.7049,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "153.28",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.28248,
+      "lon": -60.71075,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "153.28",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.28156,
+      "lon": -60.70575,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "153.28",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.27875,
+      "lon": -60.71161,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "32.4",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.27783,
+      "lon": -60.70661,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "32.4",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.25966,
+      "lon": -60.88089,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.25875,
+      "lon": -60.87598,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.25505,
+      "lon": -60.87682,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.68",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.25479,
+      "lon": -57.04388,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.77",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.25414,
+      "lon": -60.87192,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.76",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.25369,
+      "lon": -57.03859,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.64",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.25336,
+      "lon": -60.87514,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.5",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.25316,
+      "lon": -57.04308,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "14.06",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.22176,
+      "lon": -55.45729,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.19",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.20921,
+      "lon": -59.36226,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.47",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.1826,
+      "lon": -62.59829,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.06",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.18057,
+      "lon": -62.60743,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "114.89",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.15615,
+      "lon": -55.7285,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.92",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.15546,
+      "lon": -55.72537,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.92",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.13574,
+      "lon": -59.58936,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.55",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.12996,
+      "lon": -58.89627,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.78",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.11948,
+      "lon": -59.33423,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "28.53",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.11033,
+      "lon": -60.8385,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "84.91",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.10963,
+      "lon": -59.70057,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.76",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.10943,
+      "lon": -60.43019,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.2",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.10322,
+      "lon": -60.77807,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.3",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.10232,
+      "lon": -60.77308,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.3",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.10199,
+      "lon": -60.83522,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "210.03",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.09656,
+      "lon": -61.10054,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.46",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.08234,
+      "lon": -59.66572,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "1.86",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.03975,
+      "lon": -60.83387,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "12.33",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.03444,
+      "lon": -59.65333,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.44",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.03419,
+      "lon": -60.8248,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.8",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.03326,
+      "lon": -60.81985,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.8",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.99247,
+      "lon": -61.17085,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.6",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.9916,
+      "lon": -61.16607,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.56",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.96202,
+      "lon": -60.8791,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.12",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.95426,
+      "lon": -59.43848,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.72",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.95351,
+      "lon": -59.43457,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.72",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.95024,
+      "lon": -59.43943,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.72",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.91864,
+      "lon": -61.47021,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "398.43",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.91819,
+      "lon": -61.4683,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "809.14",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.9178,
+      "lon": -61.46556,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "94.06",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.91737,
+      "lon": -61.46364,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "87.25",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.91695,
+      "lon": -61.4609,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "94.06",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.91503,
+      "lon": -61.471,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "398.43",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.91457,
+      "lon": -61.4691,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "161.66",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.91418,
+      "lon": -61.46635,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "94.06",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.81992,
+      "lon": -58.06232,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.06",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.81933,
+      "lon": -58.06045,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.8",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.81824,
+      "lon": -55.85507,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "37.32",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.81754,
+      "lon": -55.85189,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "37.85",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.8133,
+      "lon": -55.85645,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "24.38",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.81258,
+      "lon": -55.85323,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "26.61",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.81116,
+      "lon": -55.84689,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "17.81",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.81046,
+      "lon": -55.84372,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "17.81",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.80975,
+      "lon": -55.84054,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "18.44",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.78895,
+      "lon": -61.21224,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "19.35",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.78808,
+      "lon": -61.20745,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "30.66",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.7872,
+      "lon": -61.20266,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "30.66",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.78511,
+      "lon": -58.3609,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.28",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.76208,
+      "lon": -61.12812,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.82",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.76119,
+      "lon": -61.12329,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "14",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.75509,
+      "lon": -58.57746,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.91",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.74285,
+      "lon": -56.92751,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.64",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.72812,
+      "lon": -59.16733,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.92",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.7035,
+      "lon": -58.3659,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.97",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.68606,
+      "lon": -58.41281,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "2.2",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.65946,
+      "lon": -57.99199,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.18",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.61614,
+      "lon": -58.73608,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.03",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.61502,
+      "lon": -58.73399,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.44",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.59146,
+      "lon": -59.9612,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.93",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.58859,
+      "lon": -59.96767,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.93",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.57996,
+      "lon": -58.27547,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.39",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.5037,
+      "lon": -58.19246,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.4",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.50325,
+      "lon": -58.18963,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.08",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.4989,
+      "lon": -58.19073,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.65",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.49582,
+      "lon": -58.22082,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.44",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.49258,
+      "lon": -59.97401,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.79",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.48683,
+      "lon": -59.98695,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.74",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.48578,
+      "lon": -59.9814,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.74",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.48291,
+      "lon": -59.98787,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.74",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.48186,
+      "lon": -59.98232,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.74",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.40772,
+      "lon": -61.24711,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.57",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.35757,
+      "lon": -60.52664,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.17",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.25619,
+      "lon": -60.09703,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.07",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.17932,
+      "lon": -60.43719,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "22.03",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.17831,
+      "lon": -60.4319,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "15.07",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.17777,
+      "lon": -60.43487,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "91.38",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.17547,
+      "lon": -60.43806,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "22.03",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.13658,
+      "lon": -59.76208,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.75",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.13258,
+      "lon": -59.76302,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.85",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.12777,
+      "lon": -60.16498,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "14.98",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.12675,
+      "lon": -60.15948,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "18.26",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.12665,
+      "lon": -60.16253,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "37.75",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.11809,
+      "lon": -60.17866,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "16.05",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.1179,
+      "lon": -60.15579,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.66",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.11687,
+      "lon": -60.1503,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.9",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.11418,
+      "lon": -60.17957,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "16.05",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.11398,
+      "lon": -60.1567,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "235.98",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.11193,
+      "lon": -60.14569,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "284.36",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.11007,
+      "lon": -60.15761,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "235.98",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.10801,
+      "lon": -60.14661,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "284.36",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.10513,
+      "lon": -60.15301,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "302.46",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.10328,
+      "lon": -60.16492,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "172.51",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.10306,
+      "lon": -60.14201,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.1",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.10246,
+      "lon": -60.18228,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "13.3",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.10225,
+      "lon": -60.15942,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "172.51",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.10143,
+      "lon": -60.1768,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.74",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.10121,
+      "lon": -60.15391,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "302.46",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.10018,
+      "lon": -60.14841,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "302.46",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.09915,
+      "lon": -60.14291,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.1",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.09833,
+      "lon": -60.16031,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "206.52",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.09752,
+      "lon": -60.1777,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.74",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.0973,
+      "lon": -60.15481,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "61.87",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.09626,
+      "lon": -60.14931,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "61.87",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.09523,
+      "lon": -60.14381,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.18",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.09027,
+      "lon": -60.1392,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.18",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.08923,
+      "lon": -60.13368,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "25.14",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.08635,
+      "lon": -60.1401,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.14",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.07326,
+      "lon": -60.02728,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "42.65",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.051,
+      "lon": -54.56633,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.52",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.0507,
+      "lon": -54.56469,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.25",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.04477,
+      "lon": -60.1151,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.45",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.00357,
+      "lon": -60.06273,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.93",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -25.00265,
+      "lon": -60.0669,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.97",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.99104,
+      "lon": -60.19261,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.48",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.98571,
+      "lon": -60.05519,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.33",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.94684,
+      "lon": -55.05044,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.03",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.92971,
+      "lon": -59.89038,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.73",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.92718,
+      "lon": -59.89891,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.49",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.92645,
+      "lon": -59.89512,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.73",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.81679,
+      "lon": -61.21466,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "12.91",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.81307,
+      "lon": -61.21548,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "12.91",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.80935,
+      "lon": -61.2163,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.92",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.717,
+      "lon": -61.32979,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.72",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.71611,
+      "lon": -61.32494,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.72",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.71329,
+      "lon": -61.3306,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.85",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.71152,
+      "lon": -61.3209,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.88",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.70959,
+      "lon": -61.33141,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.85",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.70766,
+      "lon": -61.3419,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.75",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.70677,
+      "lon": -61.33707,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.75",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.70588,
+      "lon": -61.33222,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.16",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.70307,
+      "lon": -61.33787,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.75",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.70218,
+      "lon": -61.33303,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.16",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.69697,
+      "lon": -59.68504,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "25.49",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.69292,
+      "lon": -59.68598,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "25.49",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.69217,
+      "lon": -59.68204,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "48.59",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68874,
+      "lon": -59.51653,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "16.73",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68813,
+      "lon": -59.68298,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "60.59",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68808,
+      "lon": -59.49147,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.55",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68624,
+      "lon": -59.52552,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "31.27",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68545,
+      "lon": -59.52151,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "31.27",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68465,
+      "lon": -59.51749,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "16.73",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68366,
+      "lon": -59.52606,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "18.02",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.6829,
+      "lon": -59.52203,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "18.02",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68216,
+      "lon": -59.52648,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "17.49",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68213,
+      "lon": -59.51801,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.48",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68136,
+      "lon": -59.52246,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "17.49",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68136,
+      "lon": -59.51398,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.48",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68069,
+      "lon": -59.49741,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "13.51",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.6806,
+      "lon": -59.50996,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.17",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.68057,
+      "lon": -59.51845,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.55",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67989,
+      "lon": -59.49339,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.31",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67978,
+      "lon": -59.51443,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.55",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67958,
+      "lon": -59.52702,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "18.02",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67906,
+      "lon": -59.5019,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.16",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67898,
+      "lon": -59.51042,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.08",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67881,
+      "lon": -59.52299,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "18.02",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67829,
+      "lon": -59.49788,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.16",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67819,
+      "lon": -59.5064,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.08",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67807,
+      "lon": -59.52744,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "17.49",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67804,
+      "lon": -59.51898,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.48",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67752,
+      "lon": -59.49385,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.76",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67728,
+      "lon": -59.52343,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "17.49",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67727,
+      "lon": -59.51495,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.48",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.6766,
+      "lon": -59.49836,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.41",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67651,
+      "lon": -59.51092,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.17",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67648,
+      "lon": -59.51941,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.55",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.6758,
+      "lon": -59.49435,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.52",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67574,
+      "lon": -59.5069,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.17",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67569,
+      "lon": -59.51539,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.55",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67497,
+      "lon": -59.50286,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.16",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67489,
+      "lon": -59.51138,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.08",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67473,
+      "lon": -59.52396,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "10.65",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.6742,
+      "lon": -59.49884,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "5.16",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67396,
+      "lon": -59.51994,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "13.31",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67319,
+      "lon": -59.51591,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "13.31",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.67251,
+      "lon": -59.49933,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.41",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.66965,
+      "lon": -61.17747,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "17.88",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.54788,
+      "lon": -60.66213,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "66.19",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.54691,
+      "lon": -60.65687,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "66.19",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.54597,
+      "lon": -60.67349,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "25.29",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.54501,
+      "lon": -60.66825,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "25.29",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.54403,
+      "lon": -60.66299,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "34.22",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.54213,
+      "lon": -60.67436,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "25.29",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.54116,
+      "lon": -60.66911,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "25.29",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.54019,
+      "lon": -60.66386,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "34.22",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.53922,
+      "lon": -60.6586,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "34.22",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.29159,
+      "lon": -58.99424,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.31",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.07861,
+      "lon": -62.56829,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "13.74",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.02415,
+      "lon": -61.40882,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.96",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.02042,
+      "lon": -61.40964,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "3.96",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.01582,
+      "lon": -61.40555,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.37",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.01209,
+      "lon": -61.40636,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.37",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.00748,
+      "lon": -61.40228,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.71",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -24.00375,
+      "lon": -61.40309,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.71",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.99913,
+      "lon": -61.399,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.84",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.82564,
+      "lon": -61.19672,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "17.25",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.5237,
+      "lon": -61.46611,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "16.03",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.51996,
+      "lon": -61.46693,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.04",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.47753,
+      "lon": -61.53483,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "185.38",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.47292,
+      "lon": -61.53076,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "21.3",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.47007,
+      "lon": -61.53643,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "25.27",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.46918,
+      "lon": -61.53156,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "18.88",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.4562,
+      "lon": -61.52417,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "7.66",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.45247,
+      "lon": -61.52498,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "14.71",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.43063,
+      "lon": -61.57526,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.31",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.41467,
+      "lon": -61.2752,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "50.92",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.6414,
+      "lon": -58.24511,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "6.88",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.50012,
+      "lon": -61.18745,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.6",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.48989,
+      "lon": -58.32166,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "12.98",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.48884,
+      "lon": -58.31653,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.37",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.48779,
+      "lon": -58.31143,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.37",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.43011,
+      "lon": -61.24827,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.46",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.42916,
+      "lon": -61.24308,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "8.46",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.39911,
+      "lon": -58.248,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.22",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.39862,
+      "lon": -60.2921,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "22.76",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.39556,
+      "lon": -58.25428,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "11.49",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.3945,
+      "lon": -58.2491,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.22",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.39344,
+      "lon": -58.24393,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "9.22",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.21557,
+      "lon": -57.86327,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "16.27",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.20441,
+      "lon": -58.8394,
+      "fecha": "2026-11-12",
+      "hora_utc": "1802",
+      "frp": "4.81",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.38977,
+      "lon": -61.88213,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "7.91",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.38931,
+      "lon": -61.88509,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "9.45",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.36903,
+      "lon": -61.81107,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "15.55",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.36899,
+      "lon": -61.81393,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "15.14",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.36813,
+      "lon": -61.80906,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "8.92",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.36525,
+      "lon": -61.81472,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "10.27",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.36438,
+      "lon": -61.80985,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "11.38",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -22.1298,
+      "lon": -61.19962,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "3.11",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.91975,
+      "lon": -61.6596,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "11.41",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.91883,
+      "lon": -61.65459,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "11.41",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.91791,
+      "lon": -61.64959,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "7.5",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.91659,
+      "lon": -61.65776,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "7.01",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.9157,
+      "lon": -61.65274,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "7.01",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.83074,
+      "lon": -60.19965,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "8.7",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.82661,
+      "lon": -60.20056,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "10.35",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.82585,
+      "lon": -60.19654,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "10.35",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.79563,
+      "lon": -62.27615,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "3.71",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.79481,
+      "lon": -62.27146,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "12.25",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.79194,
+      "lon": -62.27691,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "30.88",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.79112,
+      "lon": -62.27221,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "27.54",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.78826,
+      "lon": -62.27766,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "30.88",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.78743,
+      "lon": -62.27296,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "27.54",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.78375,
+      "lon": -62.27373,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "10.11",
+      "confianza": "l",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.77081,
+      "lon": -61.80412,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "9.7",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.76992,
+      "lon": -61.79917,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "129.92",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.76704,
+      "lon": -61.8049,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "9.7",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.76236,
+      "lon": -61.80073,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "6.52",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.67938,
+      "lon": -62.45212,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "7.85",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.67616,
+      "lon": -58.6228,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "22.76",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.67572,
+      "lon": -62.45287,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "7.92",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.64997,
+      "lon": -58.63141,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "15.24",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.64897,
+      "lon": -58.62635,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "40.19",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.64876,
+      "lon": -58.62912,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "66.51",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.64796,
+      "lon": -58.62129,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "40.19",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.64772,
+      "lon": -58.62407,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "66.51",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.6454,
+      "lon": -58.63247,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "15.24",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.6444,
+      "lon": -58.62741,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "40.19",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.6261,
+      "lon": -58.1873,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "11.58",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.42618,
+      "lon": -60.02516,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "9.54",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.42537,
+      "lon": -60.02097,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "10.71",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.29863,
+      "lon": -59.13727,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "6.38",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.28456,
+      "lon": -59.06552,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "16.35",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.09177,
+      "lon": -59.50123,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "6.39",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.96109,
+      "lon": -58.70427,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "17.77",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.96006,
+      "lon": -58.69914,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "17.77",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.94081,
+      "lon": -57.89395,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "5.59",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.90907,
+      "lon": -61.62572,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "18.66",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.90066,
+      "lon": -58.2584,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "80.28",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.89591,
+      "lon": -58.25951,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "80.28",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.86836,
+      "lon": -59.38387,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "13.28",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.78808,
+      "lon": -59.02675,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "62.83",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.70001,
+      "lon": -58.84599,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "11.2",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.69901,
+      "lon": -58.84091,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "12.8",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.69442,
+      "lon": -58.84196,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "12.8",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.67952,
+      "lon": -58.88765,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "9.29",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.67851,
+      "lon": -58.8826,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "9.29",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.44748,
+      "lon": -57.56559,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "4",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.41805,
+      "lon": -57.54992,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "4.66",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.34763,
+      "lon": -59.15209,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "6.15",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.22005,
+      "lon": -59.18052,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "10.2",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.20683,
+      "lon": -59.13711,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "7.37",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.20586,
+      "lon": -59.13216,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "7.37",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.20325,
+      "lon": -59.14309,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "20.36",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.20228,
+      "lon": -59.13814,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "45.89",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.20131,
+      "lon": -59.13318,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "45.89",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.19871,
+      "lon": -59.14411,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "20.36",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.19773,
+      "lon": -59.13916,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "45.89",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.19676,
+      "lon": -59.13421,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "45.89",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.19579,
+      "lon": -59.12924,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "14.41",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.19416,
+      "lon": -59.14513,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "16.46",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.19319,
+      "lon": -59.14019,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "26.01",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -20.19221,
+      "lon": -59.13524,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "26.01",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -19.52709,
+      "lon": -59.78577,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "9.91",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -19.49183,
+      "lon": -59.78587,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "34.09",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -19.4908,
+      "lon": -59.78885,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "17.54",
+      "confianza": "h",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -19.48989,
+      "lon": -59.78424,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "17.54",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -19.48828,
+      "lon": -59.79148,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "28.02",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -19.48637,
+      "lon": -59.78982,
+      "fecha": "2026-11-12",
+      "hora_utc": "1804",
+      "frp": "17.54",
       "confianza": "n",
       "satelite": "N21",
       "fuente": "VIIRS_NOAA21_NRT"
