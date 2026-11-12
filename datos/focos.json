@@ -1,7 +1,7 @@
 {
-  "actualizado_utc": "2026-11-12T02:19:58.737053+00:00",
+  "actualizado_utc": "2026-11-12T03:58:50.020517+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 54,
+  "total_detecciones": 69,
   "detecciones": [
     {
       "lat": -26.97882,
@@ -540,6 +540,156 @@
       "hora_utc": "119",
       "frp": "15.09",
       "confianza": "39",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.95497,
+      "lon": -61.98009,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "18.8",
+      "confianza": "76",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.95139,
+      "lon": -61.96034,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "25.91",
+      "confianza": "84",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.90381,
+      "lon": -59.75373,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "48.29",
+      "confianza": "91",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.9036,
+      "lon": -59.74832,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "44.01",
+      "confianza": "89",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.89855,
+      "lon": -62.17922,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "18.34",
+      "confianza": "46",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.79344,
+      "lon": -62.27306,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "28.84",
+      "confianza": "56",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.78439,
+      "lon": -62.26926,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "34.68",
+      "confianza": "71",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.95792,
+      "lon": -58.71669,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "65.09",
+      "confianza": "88",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.95065,
+      "lon": -58.72357,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "59.08",
+      "confianza": "86",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.23006,
+      "lon": -59.20131,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "43.82",
+      "confianza": "79",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.22354,
+      "lon": -59.16728,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "76.85",
+      "confianza": "93",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.22315,
+      "lon": -59.19612,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "108.63",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.21638,
+      "lon": -59.16214,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "102.07",
+      "confianza": "100",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.21439,
+      "lon": -59.20494,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "24.61",
+      "confianza": "47",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.20783,
+      "lon": -59.17092,
+      "fecha": "2026-11-12",
+      "hora_utc": "119",
+      "frp": "55.62",
+      "confianza": "84",
       "satelite": "Terra",
       "fuente": "MODIS_NRT"
     }
