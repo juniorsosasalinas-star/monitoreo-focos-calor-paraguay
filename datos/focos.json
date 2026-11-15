@@ -1,8 +1,68 @@
 {
-  "actualizado_utc": "2026-11-15T05:56:45.621779+00:00",
+  "actualizado_utc": "2026-11-15T07:07:45.255504+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 2,
+  "total_detecciones": 8,
   "detecciones": [
+    {
+      "lat": -26.56497,
+      "lon": -55.80848,
+      "fecha": "2026-11-15",
+      "hora_utc": "438",
+      "frp": "2.45",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -19.37501,
+      "lon": -59.81145,
+      "fecha": "2026-11-15",
+      "hora_utc": "438",
+      "frp": "1.35",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -19.37189,
+      "lon": -59.80132,
+      "fecha": "2026-11-15",
+      "hora_utc": "438",
+      "frp": "0.7",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -19.37127,
+      "lon": -59.80432,
+      "fecha": "2026-11-15",
+      "hora_utc": "438",
+      "frp": "0.89",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -19.36999,
+      "lon": -59.78517,
+      "fecha": "2026-11-15",
+      "hora_utc": "438",
+      "frp": "1.04",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -19.36938,
+      "lon": -59.78817,
+      "fecha": "2026-11-15",
+      "hora_utc": "438",
+      "frp": "1.04",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
     {
       "lat": -19.65526,
       "lon": -58.73655,
