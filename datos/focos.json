@@ -1,7 +1,7 @@
 {
-  "actualizado_utc": "2026-11-15T21:44:46.999191+00:00",
+  "actualizado_utc": "2026-11-15T22:44:40.779074+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 96,
+  "total_detecciones": 101,
   "detecciones": [
     {
       "lat": -19.78515,
@@ -961,6 +961,56 @@
       "frp": "10.26",
       "confianza": "37",
       "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -26.39516,
+      "lon": -56.12503,
+      "fecha": "2026-11-15",
+      "hora_utc": "1936",
+      "frp": "6.59",
+      "confianza": "53",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -23.3288,
+      "lon": -59.08131,
+      "fecha": "2026-11-15",
+      "hora_utc": "1936",
+      "frp": "12.61",
+      "confianza": "58",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.14711,
+      "lon": -58.57145,
+      "fecha": "2026-11-15",
+      "hora_utc": "1936",
+      "frp": "8.34",
+      "confianza": "0",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.85128,
+      "lon": -62.10723,
+      "fecha": "2026-11-15",
+      "hora_utc": "1936",
+      "frp": "40.76",
+      "confianza": "64",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -19.79528,
+      "lon": -60.59159,
+      "fecha": "2026-11-15",
+      "hora_utc": "1936",
+      "frp": "66.25",
+      "confianza": "84",
+      "satelite": "Aqua",
       "fuente": "MODIS_NRT"
     }
   ]
