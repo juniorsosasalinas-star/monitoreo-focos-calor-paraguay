@@ -1,7 +1,7 @@
 {
-  "actualizado_utc": "2026-11-16T11:28:30.614998+00:00",
+  "actualizado_utc": "2026-11-16T15:10:30.277348+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 18,
+  "total_detecciones": 27,
   "detecciones": [
     {
       "lat": -23.32385,
@@ -180,6 +180,96 @@
       "hora_utc": "39",
       "frp": "6.19",
       "confianza": "67",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.90636,
+      "lon": -62.14619,
+      "fecha": "2026-11-16",
+      "hora_utc": "1310",
+      "frp": "117.91",
+      "confianza": "79",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.90322,
+      "lon": -62.18684,
+      "fecha": "2026-11-16",
+      "hora_utc": "1310",
+      "frp": "101.72",
+      "confianza": "78",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.90283,
+      "lon": -62.13924,
+      "fecha": "2026-11-16",
+      "hora_utc": "1310",
+      "frp": "72.75",
+      "confianza": "47",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.89944,
+      "lon": -62.17987,
+      "fecha": "2026-11-16",
+      "hora_utc": "1310",
+      "frp": "141.82",
+      "confianza": "83",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.83523,
+      "lon": -62.0664,
+      "fecha": "2026-11-16",
+      "hora_utc": "1310",
+      "frp": "162.21",
+      "confianza": "83",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.83202,
+      "lon": -62.10617,
+      "fecha": "2026-11-16",
+      "hora_utc": "1310",
+      "frp": "131.2",
+      "confianza": "81",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.83109,
+      "lon": -62.05877,
+      "fecha": "2026-11-16",
+      "hora_utc": "1310",
+      "frp": "95.56",
+      "confianza": "77",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.82763,
+      "lon": -62.09855,
+      "fecha": "2026-11-16",
+      "hora_utc": "1310",
+      "frp": "165.71",
+      "confianza": "84",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -19.69127,
+      "lon": -61.56099,
+      "fecha": "2026-11-16",
+      "hora_utc": "1310",
+      "frp": "22.88",
+      "confianza": "50",
       "satelite": "Terra",
       "fuente": "MODIS_NRT"
     }
