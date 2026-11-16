@@ -1,8 +1,138 @@
 {
-  "actualizado_utc": "2026-11-16T06:20:48.659570+00:00",
+  "actualizado_utc": "2026-11-16T09:45:27.293679+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 5,
+  "total_detecciones": 18,
   "detecciones": [
+    {
+      "lat": -23.32385,
+      "lon": -59.06662,
+      "fecha": "2026-11-16",
+      "hora_utc": "516",
+      "frp": "1.71",
+      "confianza": "n",
+      "satelite": "N20",
+      "fuente": "VIIRS_NOAA20_NRT"
+    },
+    {
+      "lat": -23.31994,
+      "lon": -59.06982,
+      "fecha": "2026-11-16",
+      "hora_utc": "516",
+      "frp": "1.18",
+      "confianza": "n",
+      "satelite": "N20",
+      "fuente": "VIIRS_NOAA20_NRT"
+    },
+    {
+      "lat": -23.31936,
+      "lon": -59.07361,
+      "fecha": "2026-11-16",
+      "hora_utc": "516",
+      "frp": "1.18",
+      "confianza": "n",
+      "satelite": "N20",
+      "fuente": "VIIRS_NOAA20_NRT"
+    },
+    {
+      "lat": -23.15682,
+      "lon": -59.06814,
+      "fecha": "2026-11-16",
+      "hora_utc": "516",
+      "frp": "5.41",
+      "confianza": "n",
+      "satelite": "N20",
+      "fuente": "VIIRS_NOAA20_NRT"
+    },
+    {
+      "lat": -21.48975,
+      "lon": -60.94035,
+      "fecha": "2026-11-16",
+      "hora_utc": "516",
+      "frp": "2.62",
+      "confianza": "n",
+      "satelite": "N20",
+      "fuente": "VIIRS_NOAA20_NRT"
+    },
+    {
+      "lat": -26.90179,
+      "lon": -62.46683,
+      "fecha": "2026-11-16",
+      "hora_utc": "518",
+      "frp": "0.4",
+      "confianza": "n",
+      "satelite": "N20",
+      "fuente": "VIIRS_NOAA20_NRT"
+    },
+    {
+      "lat": -26.78963,
+      "lon": -61.34204,
+      "fecha": "2026-11-16",
+      "hora_utc": "518",
+      "frp": "0.53",
+      "confianza": "n",
+      "satelite": "N20",
+      "fuente": "VIIRS_NOAA20_NRT"
+    },
+    {
+      "lat": -26.32666,
+      "lon": -60.4082,
+      "fecha": "2026-11-16",
+      "hora_utc": "518",
+      "frp": "1.42",
+      "confianza": "n",
+      "satelite": "N20",
+      "fuente": "VIIRS_NOAA20_NRT"
+    },
+    {
+      "lat": -23.1577,
+      "lon": -59.06921,
+      "fecha": "2026-11-16",
+      "hora_utc": "421",
+      "frp": "3.71",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.16063,
+      "lon": -59.06873,
+      "fecha": "2026-11-16",
+      "hora_utc": "601",
+      "frp": "3.04",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.15785,
+      "lon": -59.06581,
+      "fecha": "2026-11-16",
+      "hora_utc": "601",
+      "frp": "2.09",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -23.15743,
+      "lon": -59.07212,
+      "fecha": "2026-11-16",
+      "hora_utc": "601",
+      "frp": "2.09",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -21.90394,
+      "lon": -62.18099,
+      "fecha": "2026-11-16",
+      "hora_utc": "601",
+      "frp": "1.96",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
     {
       "lat": -23.32482,
       "lon": -59.06354,
