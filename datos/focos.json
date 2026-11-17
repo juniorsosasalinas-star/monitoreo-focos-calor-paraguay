@@ -1,6 +1,87 @@
 {
-  "actualizado_utc": "2026-11-17T01:14:50.270965+00:00",
+  "actualizado_utc": "2026-11-17T02:22:30.974471+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 0,
-  "detecciones": []
+  "total_detecciones": 8,
+  "detecciones": [
+    {
+      "lat": -21.83111,
+      "lon": -61.67402,
+      "fecha": "2026-11-17",
+      "hora_utc": "119",
+      "frp": "12.68",
+      "confianza": "73",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.82745,
+      "lon": -61.65401,
+      "fecha": "2026-11-17",
+      "hora_utc": "119",
+      "frp": "29.07",
+      "confianza": "90",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.82657,
+      "lon": -61.66075,
+      "fecha": "2026-11-17",
+      "hora_utc": "119",
+      "frp": "26.24",
+      "confianza": "89",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.82304,
+      "lon": -61.64064,
+      "fecha": "2026-11-17",
+      "hora_utc": "119",
+      "frp": "11.8",
+      "confianza": "68",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.1249,
+      "lon": -58.37887,
+      "fecha": "2026-11-17",
+      "hora_utc": "119",
+      "frp": "34.97",
+      "confianza": "59",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.11785,
+      "lon": -58.34292,
+      "fecha": "2026-11-17",
+      "hora_utc": "119",
+      "frp": "25.43",
+      "confianza": "40",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -21.11603,
+      "lon": -58.37591,
+      "fecha": "2026-11-17",
+      "hora_utc": "119",
+      "frp": "42.43",
+      "confianza": "66",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.83287,
+      "lon": -62.08077,
+      "fecha": "2026-11-17",
+      "hora_utc": "119",
+      "frp": "15.26",
+      "confianza": "46",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    }
+  ]
 }
