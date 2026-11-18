@@ -1,7 +1,7 @@
 {
-  "actualizado_utc": "2026-11-18T09:10:09.794182+00:00",
+  "actualizado_utc": "2026-11-18T10:10:00.479899+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 91,
+  "total_detecciones": 99,
   "detecciones": [
     {
       "lat": -20.88865,
@@ -911,6 +911,86 @@
       "frp": "16.11",
       "confianza": "53",
       "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.17983,
+      "lon": -58.84314,
+      "fecha": "2026-11-18",
+      "hora_utc": "745",
+      "frp": "7.63",
+      "confianza": "47",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -22.17955,
+      "lon": -58.84887,
+      "fecha": "2026-11-18",
+      "hora_utc": "745",
+      "frp": "5.54",
+      "confianza": "29",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.88304,
+      "lon": -60.88834,
+      "fecha": "2026-11-18",
+      "hora_utc": "745",
+      "frp": "10.69",
+      "confianza": "87",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.88163,
+      "lon": -60.89801,
+      "fecha": "2026-11-18",
+      "hora_utc": "745",
+      "frp": "11.9",
+      "confianza": "90",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.82909,
+      "lon": -62.07205,
+      "fecha": "2026-11-18",
+      "hora_utc": "745",
+      "frp": "4.28",
+      "confianza": "41",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.82032,
+      "lon": -62.07057,
+      "fecha": "2026-11-18",
+      "hora_utc": "745",
+      "frp": "4.64",
+      "confianza": "62",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.81891,
+      "lon": -62.07989,
+      "fecha": "2026-11-18",
+      "hora_utc": "745",
+      "frp": "4.58",
+      "confianza": "55",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -20.21585,
+      "lon": -59.18535,
+      "fecha": "2026-11-18",
+      "hora_utc": "745",
+      "frp": "10.08",
+      "confianza": "79",
+      "satelite": "Aqua",
       "fuente": "MODIS_NRT"
     }
   ]
