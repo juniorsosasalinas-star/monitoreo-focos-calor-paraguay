@@ -1,8 +1,18 @@
 {
-  "actualizado_utc": "2026-11-19T07:18:16.944356+00:00",
+  "actualizado_utc": "2026-11-19T17:21:29.853465+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 6,
+  "total_detecciones": 7,
   "detecciones": [
+    {
+      "lat": -23.44258,
+      "lon": -59.68548,
+      "fecha": "2026-11-19",
+      "hora_utc": "559",
+      "frp": "5.59",
+      "confianza": "n",
+      "satelite": "N20",
+      "fuente": "VIIRS_NOAA20_NRT"
+    },
     {
       "lat": -26.20411,
       "lon": -61.42999,
