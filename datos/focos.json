@@ -1,7 +1,7 @@
 {
-  "actualizado_utc": "2026-11-25T09:48:43.608776+00:00",
+  "actualizado_utc": "2026-11-25T19:54:30.645139+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 20,
+  "total_detecciones": 27,
   "detecciones": [
     {
       "lat": -20.34206,
@@ -194,12 +194,82 @@
       "fuente": "VIIRS_NOAA21_NRT"
     },
     {
+      "lat": -26.10171,
+      "lon": -61.10065,
+      "fecha": "2026-11-25",
+      "hora_utc": "1717",
+      "frp": "12.79",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.09934,
+      "lon": -61.10453,
+      "fecha": "2026-11-25",
+      "hora_utc": "1717",
+      "frp": "14.18",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
+      "lat": -26.09881,
+      "lon": -61.09966,
+      "fecha": "2026-11-25",
+      "hora_utc": "1717",
+      "frp": "14.18",
+      "confianza": "n",
+      "satelite": "N21",
+      "fuente": "VIIRS_NOAA21_NRT"
+    },
+    {
       "lat": -25.44555,
       "lon": -62.30596,
       "fecha": "2026-11-25",
       "hora_utc": "134",
       "frp": "18.12",
       "confianza": "16",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -19.67037,
+      "lon": -58.73088,
+      "fecha": "2026-11-25",
+      "hora_utc": "1227",
+      "frp": "14.38",
+      "confianza": "75",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.45628,
+      "lon": -62.30362,
+      "fecha": "2026-11-25",
+      "hora_utc": "1229",
+      "frp": "22.15",
+      "confianza": "84",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.44749,
+      "lon": -62.29617,
+      "fecha": "2026-11-25",
+      "hora_utc": "1229",
+      "frp": "27.12",
+      "confianza": "86",
+      "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.44613,
+      "lon": -62.30611,
+      "fecha": "2026-11-25",
+      "hora_utc": "1229",
+      "frp": "18.18",
+      "confianza": "81",
       "satelite": "Terra",
       "fuente": "MODIS_NRT"
     }
