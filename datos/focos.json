@@ -1,7 +1,7 @@
 {
-  "actualizado_utc": "2026-11-26T02:47:54.837348+00:00",
+  "actualizado_utc": "2026-11-26T12:21:09.069902+00:00",
   "area": "Paraguay y zonas limítrofes (consulta preliminar)",
-  "total_detecciones": 1,
+  "total_detecciones": 3,
   "detecciones": [
     {
       "lat": -26.20461,
@@ -11,6 +11,26 @@
       "frp": "9.54",
       "confianza": "63",
       "satelite": "Terra",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.27121,
+      "lon": -62.66319,
+      "fecha": "2026-11-26",
+      "hora_utc": "754",
+      "frp": "6.6",
+      "confianza": "57",
+      "satelite": "Aqua",
+      "fuente": "MODIS_NRT"
+    },
+    {
+      "lat": -25.26487,
+      "lon": -62.66656,
+      "fecha": "2026-11-26",
+      "hora_utc": "754",
+      "frp": "5.91",
+      "confianza": "55",
+      "satelite": "Aqua",
       "fuente": "MODIS_NRT"
     }
   ]
